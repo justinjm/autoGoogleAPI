@@ -4,19 +4,19 @@
 \alias{DataType}
 \title{DataType Object}
 \usage{
-DataType(nullable = NULL, listElementType = NULL, typeCode = NULL,
-  structType = NULL, timeFormat = NULL)
+DataType(structType = NULL, timeFormat = NULL, nullable = NULL,
+  listElementType = NULL, typeCode = NULL)
 }
 \arguments{
+\item{structType}{If type_code == STRUCT, then `struct_type`}
+
+\item{timeFormat}{If type_code == TIMESTAMP}
+
 \item{nullable}{If true, this DataType can also be `NULL`}
 
 \item{listElementType}{If type_code == ARRAY,}
 
 \item{typeCode}{Required}
-
-\item{structType}{If type_code == STRUCT, then `struct_type`}
-
-\item{timeFormat}{If type_code == TIMESTAMP}
 }
 \value{
 DataType object

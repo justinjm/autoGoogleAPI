@@ -4,16 +4,25 @@
 \alias{Dataset}
 \title{Dataset Object}
 \usage{
-Dataset(description = NULL, imageClassificationDatasetMetadata = NULL,
-  etag = NULL, textSentimentDatasetMetadata = NULL, name = NULL,
-  imageObjectDetectionDatasetMetadata = NULL, exampleCount = NULL,
-  translationDatasetMetadata = NULL, displayName = NULL,
-  textClassificationDatasetMetadata = NULL, createTime = NULL,
-  textExtractionDatasetMetadata = NULL,
+Dataset(createTime = NULL, textExtractionDatasetMetadata = NULL,
   videoClassificationDatasetMetadata = NULL,
-  tablesDatasetMetadata = NULL)
+  tablesDatasetMetadata = NULL, description = NULL,
+  imageClassificationDatasetMetadata = NULL, etag = NULL,
+  textSentimentDatasetMetadata = NULL, name = NULL,
+  imageObjectDetectionDatasetMetadata = NULL,
+  translationDatasetMetadata = NULL, exampleCount = NULL,
+  videoObjectTrackingDatasetMetadata = NULL,
+  textClassificationDatasetMetadata = NULL, displayName = NULL)
 }
 \arguments{
+\item{createTime}{Output only}
+
+\item{textExtractionDatasetMetadata}{Metadata for a dataset used for text extraction}
+
+\item{videoClassificationDatasetMetadata}{Metadata for a dataset used for video classification}
+
+\item{tablesDatasetMetadata}{Metadata for a dataset used for Tables}
+
 \item{description}{User-provided description of the dataset}
 
 \item{imageClassificationDatasetMetadata}{Metadata for a dataset used for image classification}
@@ -26,21 +35,15 @@ Dataset(description = NULL, imageClassificationDatasetMetadata = NULL,
 
 \item{imageObjectDetectionDatasetMetadata}{Metadata for a dataset used for image object detection}
 
-\item{exampleCount}{Output only}
-
 \item{translationDatasetMetadata}{Metadata for a dataset used for translation}
 
-\item{displayName}{Required}
+\item{exampleCount}{Output only}
+
+\item{videoObjectTrackingDatasetMetadata}{Metadata for a dataset used for video object tracking}
 
 \item{textClassificationDatasetMetadata}{Metadata for a dataset used for text classification}
 
-\item{createTime}{Output only}
-
-\item{textExtractionDatasetMetadata}{Metadata for a dataset used for text extraction}
-
-\item{videoClassificationDatasetMetadata}{Metadata for a dataset used for video classification}
-
-\item{tablesDatasetMetadata}{Metadata for a dataset used for Tables}
+\item{displayName}{Required}
 }
 \value{
 Dataset object

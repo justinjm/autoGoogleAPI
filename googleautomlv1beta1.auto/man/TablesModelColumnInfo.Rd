@@ -4,15 +4,15 @@
 \alias{TablesModelColumnInfo}
 \title{TablesModelColumnInfo Object}
 \usage{
-TablesModelColumnInfo(columnSpecName = NULL, featureImportance = NULL,
-  columnDisplayName = NULL)
+TablesModelColumnInfo(columnDisplayName = NULL, columnSpecName = NULL,
+  featureImportance = NULL)
 }
 \arguments{
+\item{columnDisplayName}{Output only}
+
 \item{columnSpecName}{Output only}
 
 \item{featureImportance}{Output only}
-
-\item{columnDisplayName}{Output only}
 }
 \value{
 TablesModelColumnInfo object

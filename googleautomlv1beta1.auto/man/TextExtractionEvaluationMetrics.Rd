@@ -4,13 +4,13 @@
 \alias{TextExtractionEvaluationMetrics}
 \title{TextExtractionEvaluationMetrics Object}
 \usage{
-TextExtractionEvaluationMetrics(auPrc = NULL,
-  confidenceMetricsEntries = NULL)
+TextExtractionEvaluationMetrics(confidenceMetricsEntries = NULL,
+  auPrc = NULL)
 }
 \arguments{
-\item{auPrc}{Output only}
-
 \item{confidenceMetricsEntries}{Output only}
+
+\item{auPrc}{Output only}
 }
 \value{
 TextExtractionEvaluationMetrics object

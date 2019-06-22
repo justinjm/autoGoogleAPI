@@ -4,14 +4,16 @@
 \alias{Operation}
 \title{Operation Object}
 \usage{
-Operation(Operation.response = NULL, Operation.metadata = NULL,
-  done = NULL, response = NULL, name = NULL, error = NULL,
-  metadata = NULL)
+Operation(Operation.metadata = NULL, Operation.response = NULL,
+  metadata = NULL, done = NULL, response = NULL, name = NULL,
+  error = NULL)
 }
 \arguments{
+\item{Operation.metadata}{The \link{Operation.metadata} object or list of objects}
+
 \item{Operation.response}{The \link{Operation.response} object or list of objects}
 
-\item{Operation.metadata}{The \link{Operation.metadata} object or list of objects}
+\item{metadata}{Service-specific metadata associated with the operation}
 
 \item{done}{If the value is `false`, it means the operation is still in progress}
 
@@ -20,8 +22,6 @@ Operation(Operation.response = NULL, Operation.metadata = NULL,
 \item{name}{The server-assigned name, which is only unique within the same service that}
 
 \item{error}{The error result of the operation in case of failure or cancellation}
-
-\item{metadata}{Service-specific metadata associated with the operation}
 }
 \value{
 Operation object

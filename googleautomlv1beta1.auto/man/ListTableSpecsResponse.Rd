@@ -4,12 +4,12 @@
 \alias{ListTableSpecsResponse}
 \title{ListTableSpecsResponse Object}
 \usage{
-ListTableSpecsResponse(nextPageToken = NULL, tableSpecs = NULL)
+ListTableSpecsResponse(tableSpecs = NULL, nextPageToken = NULL)
 }
 \arguments{
-\item{nextPageToken}{A token to retrieve next page of results}
-
 \item{tableSpecs}{The table specs read}
+
+\item{nextPageToken}{A token to retrieve next page of results}
 }
 \value{
 ListTableSpecsResponse object

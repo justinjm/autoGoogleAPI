@@ -4,10 +4,12 @@
 \alias{ColumnSpec}
 \title{ColumnSpec Object}
 \usage{
-ColumnSpec(dataStats = NULL, displayName = NULL, etag = NULL,
-  dataType = NULL, name = NULL, topCorrelatedColumns = NULL)
+ColumnSpec(topCorrelatedColumns = NULL, dataStats = NULL,
+  displayName = NULL, etag = NULL, dataType = NULL, name = NULL)
 }
 \arguments{
+\item{topCorrelatedColumns}{Output only}
+
 \item{dataStats}{Output only}
 
 \item{displayName}{Output only}
@@ -17,8 +19,6 @@ ColumnSpec(dataStats = NULL, displayName = NULL, etag = NULL,
 \item{dataType}{The data type of elements stored in the column}
 
 \item{name}{Output only}
-
-\item{topCorrelatedColumns}{Output only}
 }
 \value{
 ColumnSpec object

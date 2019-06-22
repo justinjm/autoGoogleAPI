@@ -11,4 +11,4 @@ directory <- getwd()
 result <- gar_create_package(api_json = api_json_list,
                              directory = directory,
                              github = FALSE,
-                             overwrite = FALSE)
+                             overwrite = TRUE)

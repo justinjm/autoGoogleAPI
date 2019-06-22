@@ -4,12 +4,12 @@
 \alias{CorrelatedColumn}
 \title{CorrelatedColumn Object}
 \usage{
-CorrelatedColumn(correlationStats = NULL, columnSpecId = NULL)
+CorrelatedColumn(columnSpecId = NULL, correlationStats = NULL)
 }
 \arguments{
-\item{correlationStats}{Correlation between this and the in-context column}
-
 \item{columnSpecId}{The column_spec_id of the correlated column, which belongs to the same}
+
+\item{correlationStats}{Correlation between this and the in-context column}
 }
 \value{
 CorrelatedColumn object

@@ -4,12 +4,12 @@
 \alias{ListModelsResponse}
 \title{ListModelsResponse Object}
 \usage{
-ListModelsResponse(nextPageToken = NULL, model = NULL)
+ListModelsResponse(model = NULL, nextPageToken = NULL)
 }
 \arguments{
-\item{nextPageToken}{A token to retrieve next page of results}
-
 \item{model}{List of models in the requested page}
+
+\item{nextPageToken}{A token to retrieve next page of results}
 }
 \value{
 ListModelsResponse object

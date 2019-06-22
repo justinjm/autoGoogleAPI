@@ -4,11 +4,20 @@
 \alias{DataStats}
 \title{DataStats Object}
 \usage{
-DataStats(stringStats = NULL, arrayStats = NULL, structStats = NULL,
-  categoryStats = NULL, distinctValueCount = NULL,
-  nullValueCount = NULL, float64Stats = NULL, timestampStats = NULL)
+DataStats(validValueCount = NULL, nullValueCount = NULL,
+  timestampStats = NULL, float64Stats = NULL, stringStats = NULL,
+  arrayStats = NULL, structStats = NULL, categoryStats = NULL,
+  distinctValueCount = NULL)
 }
 \arguments{
+\item{validValueCount}{The number of values that are valid}
+
+\item{nullValueCount}{The number of values that are null}
+
+\item{timestampStats}{The statistics for TIMESTAMP DataType}
+
+\item{float64Stats}{The statistics for FLOAT64 DataType}
+
 \item{stringStats}{The statistics for STRING DataType}
 
 \item{arrayStats}{The statistics for ARRAY DataType}
@@ -18,12 +27,6 @@ DataStats(stringStats = NULL, arrayStats = NULL, structStats = NULL,
 \item{categoryStats}{The statistics for CATEGORY DataType}
 
 \item{distinctValueCount}{The number of distinct values}
-
-\item{nullValueCount}{The number of values that are null}
-
-\item{float64Stats}{The statistics for FLOAT64 DataType}
-
-\item{timestampStats}{The statistics for TIMESTAMP DataType}
 }
 \value{
 DataStats object

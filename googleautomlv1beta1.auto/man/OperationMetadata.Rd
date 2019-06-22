@@ -4,31 +4,15 @@
 \alias{OperationMetadata}
 \title{OperationMetadata Object}
 \usage{
-OperationMetadata(progressPercent = NULL, deployModelDetails = NULL,
-  deleteDetails = NULL, exportModelDetails = NULL,
-  createModelDetails = NULL, createTime = NULL,
-  exportDataDetails = NULL, updateTime = NULL,
-  exportEvaluatedExamplesDetails = NULL, undeployModelDetails = NULL,
-  partialFailures = NULL, importDataDetails = NULL,
-  batchPredictDetails = NULL)
+OperationMetadata(exportEvaluatedExamplesDetails = NULL,
+  undeployModelDetails = NULL, partialFailures = NULL,
+  importDataDetails = NULL, batchPredictDetails = NULL,
+  progressPercent = NULL, deployModelDetails = NULL,
+  exportModelDetails = NULL, deleteDetails = NULL,
+  createModelDetails = NULL, createTime = NULL, updateTime = NULL,
+  exportDataDetails = NULL)
 }
 \arguments{
-\item{progressPercent}{Output only}
-
-\item{deployModelDetails}{Details of a DeployModel operation}
-
-\item{deleteDetails}{Details of a Delete operation}
-
-\item{exportModelDetails}{Details of ExportModel operation}
-
-\item{createModelDetails}{Details of CreateModel operation}
-
-\item{createTime}{Output only}
-
-\item{exportDataDetails}{Details of ExportData operation}
-
-\item{updateTime}{Output only}
-
 \item{exportEvaluatedExamplesDetails}{Details of ExportEvaluatedExamples operation}
 
 \item{undeployModelDetails}{Details of an UndeployModel operation}
@@ -38,6 +22,22 @@ OperationMetadata(progressPercent = NULL, deployModelDetails = NULL,
 \item{importDataDetails}{Details of ImportData operation}
 
 \item{batchPredictDetails}{Details of BatchPredict operation}
+
+\item{progressPercent}{Output only}
+
+\item{deployModelDetails}{Details of a DeployModel operation}
+
+\item{exportModelDetails}{Details of ExportModel operation}
+
+\item{deleteDetails}{Details of a Delete operation}
+
+\item{createModelDetails}{Details of CreateModel operation}
+
+\item{createTime}{Output only}
+
+\item{updateTime}{Output only}
+
+\item{exportDataDetails}{Details of ExportData operation}
 }
 \value{
 OperationMetadata object

@@ -4,9 +4,10 @@
 \alias{Model}
 \title{Model Object}
 \usage{
-Model(datasetId = NULL, textSentimentModelMetadata = NULL,
-  imageObjectDetectionModelMetadata = NULL, name = NULL,
-  translationModelMetadata = NULL,
+Model(textSentimentModelMetadata = NULL,
+  imageObjectDetectionModelMetadata = NULL, datasetId = NULL,
+  videoObjectTrackingModelMetadata = NULL,
+  translationModelMetadata = NULL, name = NULL,
   videoClassificationModelMetadata = NULL, displayName = NULL,
   deploymentState = NULL, createTime = NULL,
   imageClassificationModelMetadata = NULL, tablesModelMetadata = NULL,
@@ -14,15 +15,17 @@ Model(datasetId = NULL, textSentimentModelMetadata = NULL,
   textClassificationModelMetadata = NULL)
 }
 \arguments{
-\item{datasetId}{Required}
-
 \item{textSentimentModelMetadata}{Metadata for text sentiment models}
 
 \item{imageObjectDetectionModelMetadata}{Metadata for image object detection models}
 
-\item{name}{Output only}
+\item{datasetId}{Required}
+
+\item{videoObjectTrackingModelMetadata}{Metadata for video object tracking models}
 
 \item{translationModelMetadata}{Metadata for translation models}
+
+\item{name}{Output only}
 
 \item{videoClassificationModelMetadata}{Metadata for video classification models}
 

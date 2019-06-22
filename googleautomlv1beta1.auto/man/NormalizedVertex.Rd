@@ -4,12 +4,12 @@
 \alias{NormalizedVertex}
 \title{NormalizedVertex Object}
 \usage{
-NormalizedVertex(x = NULL, y = NULL)
+NormalizedVertex(y = NULL, x = NULL)
 }
 \arguments{
-\item{x}{Required}
-
 \item{y}{Required}
+
+\item{x}{Required}
 }
 \value{
 NormalizedVertex object

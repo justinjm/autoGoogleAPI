@@ -7,9 +7,9 @@
 Row(values = NULL, columnSpecIds = NULL)
 }
 \arguments{
-\item{values}{Required}
+\item{values}{Input Only}
 
-\item{columnSpecIds}{The resource IDs of the column specs describing the columns of the row}
+\item{columnSpecIds}{Input Only}
 }
 \value{
 Row object

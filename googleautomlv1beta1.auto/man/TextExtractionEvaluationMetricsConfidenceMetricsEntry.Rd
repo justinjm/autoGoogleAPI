@@ -4,17 +4,18 @@
 \alias{TextExtractionEvaluationMetricsConfidenceMetricsEntry}
 \title{TextExtractionEvaluationMetricsConfidenceMetricsEntry Object}
 \usage{
-TextExtractionEvaluationMetricsConfidenceMetricsEntry(recall = NULL,
-  f1Score = NULL, precision = NULL, confidenceThreshold = NULL)
+
+  TextExtractionEvaluationMetricsConfidenceMetricsEntry(confidenceThreshold = NULL,
+  recall = NULL, f1Score = NULL, precision = NULL)
 }
 \arguments{
+\item{confidenceThreshold}{Output only}
+
 \item{recall}{Output only}
 
 \item{f1Score}{Output only}
 
 \item{precision}{Output only}
-
-\item{confidenceThreshold}{Output only}
 }
 \value{
 TextExtractionEvaluationMetricsConfidenceMetricsEntry object

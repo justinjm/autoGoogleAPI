@@ -4,14 +4,14 @@
 \alias{Policy}
 \title{Policy Object}
 \usage{
-Policy(bindings = NULL, etag = NULL, version = NULL)
+Policy(etag = NULL, version = NULL, bindings = NULL)
 }
 \arguments{
-\item{bindings}{Associates a list of `members` to a `role`}
-
 \item{etag}{`etag` is used for optimistic concurrency control as a way to help}
 
 \item{version}{Deprecated}
+
+\item{bindings}{Associates a list of `members` to a `role`}
 }
 \value{
 Policy object

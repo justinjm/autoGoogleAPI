@@ -6,14 +6,12 @@
 \usage{
 
   TablesDatasetMetadata(TablesDatasetMetadata.targetColumnCorrelations = NULL,
-  targetColumnSpecId = NULL, statsUpdateTime = NULL,
-  targetColumnCorrelations = NULL, weightColumnSpecId = NULL,
-  mlUseColumnSpecId = NULL, primaryTableSpecId = NULL)
+  statsUpdateTime = NULL, targetColumnCorrelations = NULL,
+  weightColumnSpecId = NULL, mlUseColumnSpecId = NULL,
+  primaryTableSpecId = NULL, targetColumnSpecId = NULL)
 }
 \arguments{
 \item{TablesDatasetMetadata.targetColumnCorrelations}{The \link{TablesDatasetMetadata.targetColumnCorrelations} object or list of objects}
-
-\item{targetColumnSpecId}{column_spec_id of the primary table's column that should be used as the}
 
 \item{statsUpdateTime}{The most recent timestamp when target_column_correlations field and all}
 
@@ -24,6 +22,8 @@
 \item{mlUseColumnSpecId}{column_spec_id of the primary table column which specifies a possible ML}
 
 \item{primaryTableSpecId}{Output only}
+
+\item{targetColumnSpecId}{column_spec_id of the primary table's column that should be used as the}
 }
 \value{
 TablesDatasetMetadata object
