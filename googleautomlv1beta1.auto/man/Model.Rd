@@ -4,38 +4,22 @@
 \alias{Model}
 \title{Model Object}
 \usage{
-Model(textSentimentModelMetadata = NULL,
-  imageObjectDetectionModelMetadata = NULL, datasetId = NULL,
-  videoObjectTrackingModelMetadata = NULL,
-  translationModelMetadata = NULL, name = NULL,
-  videoClassificationModelMetadata = NULL, displayName = NULL,
-  deploymentState = NULL, createTime = NULL,
-  imageClassificationModelMetadata = NULL, tablesModelMetadata = NULL,
+Model(deploymentState = NULL, imageClassificationModelMetadata = NULL,
+  createTime = NULL, tablesModelMetadata = NULL,
   textExtractionModelMetadata = NULL, updateTime = NULL,
-  textClassificationModelMetadata = NULL)
+  textClassificationModelMetadata = NULL, datasetId = NULL,
+  imageObjectDetectionModelMetadata = NULL,
+  textSentimentModelMetadata = NULL,
+  videoObjectTrackingModelMetadata = NULL, name = NULL,
+  translationModelMetadata = NULL,
+  videoClassificationModelMetadata = NULL, displayName = NULL)
 }
 \arguments{
-\item{textSentimentModelMetadata}{Metadata for text sentiment models}
-
-\item{imageObjectDetectionModelMetadata}{Metadata for image object detection models}
-
-\item{datasetId}{Required}
-
-\item{videoObjectTrackingModelMetadata}{Metadata for video object tracking models}
-
-\item{translationModelMetadata}{Metadata for translation models}
-
-\item{name}{Output only}
-
-\item{videoClassificationModelMetadata}{Metadata for video classification models}
-
-\item{displayName}{Required}
-
 \item{deploymentState}{Output only}
 
-\item{createTime}{Output only}
-
 \item{imageClassificationModelMetadata}{Metadata for image classification models}
+
+\item{createTime}{Output only}
 
 \item{tablesModelMetadata}{Metadata for Tables models}
 
@@ -44,6 +28,22 @@ Model(textSentimentModelMetadata = NULL,
 \item{updateTime}{Output only}
 
 \item{textClassificationModelMetadata}{Metadata for text classification models}
+
+\item{datasetId}{Required}
+
+\item{imageObjectDetectionModelMetadata}{Metadata for image object detection models}
+
+\item{textSentimentModelMetadata}{Metadata for text sentiment models}
+
+\item{videoObjectTrackingModelMetadata}{Metadata for video object tracking models}
+
+\item{name}{Output only}
+
+\item{translationModelMetadata}{Metadata for translation models}
+
+\item{videoClassificationModelMetadata}{Metadata for video classification models}
+
+\item{displayName}{Required}
 }
 \value{
 Model object

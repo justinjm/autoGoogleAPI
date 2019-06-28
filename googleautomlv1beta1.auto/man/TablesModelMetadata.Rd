@@ -4,16 +4,12 @@
 \alias{TablesModelMetadata}
 \title{TablesModelMetadata Object}
 \usage{
-TablesModelMetadata(inputFeatureColumnSpecs = NULL,
-  tablesModelColumnInfo = NULL, trainBudgetMilliNodeHours = NULL,
+TablesModelMetadata(trainBudgetMilliNodeHours = NULL,
   targetColumnSpec = NULL, disableEarlyStopping = NULL,
-  trainCostMilliNodeHours = NULL, optimizationObjective = NULL)
+  trainCostMilliNodeHours = NULL, optimizationObjective = NULL,
+  inputFeatureColumnSpecs = NULL, tablesModelColumnInfo = NULL)
 }
 \arguments{
-\item{inputFeatureColumnSpecs}{Column specs of the dataset's primary table's columns, on which}
-
-\item{tablesModelColumnInfo}{Output only}
-
 \item{trainBudgetMilliNodeHours}{Required}
 
 \item{targetColumnSpec}{Column spec of the dataset's primary table's column the model is}
@@ -23,6 +19,10 @@ TablesModelMetadata(inputFeatureColumnSpecs = NULL,
 \item{trainCostMilliNodeHours}{Output only}
 
 \item{optimizationObjective}{Objective function the model is optimizing towards}
+
+\item{inputFeatureColumnSpecs}{Column specs of the dataset's primary table's columns, on which}
+
+\item{tablesModelColumnInfo}{Output only}
 }
 \value{
 TablesModelMetadata object

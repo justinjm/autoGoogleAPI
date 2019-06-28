@@ -4,25 +4,17 @@
 \alias{Dataset}
 \title{Dataset Object}
 \usage{
-Dataset(createTime = NULL, textExtractionDatasetMetadata = NULL,
-  videoClassificationDatasetMetadata = NULL,
-  tablesDatasetMetadata = NULL, description = NULL,
-  imageClassificationDatasetMetadata = NULL, etag = NULL,
-  textSentimentDatasetMetadata = NULL, name = NULL,
+Dataset(description = NULL, imageClassificationDatasetMetadata = NULL,
+  etag = NULL, textSentimentDatasetMetadata = NULL, name = NULL,
   imageObjectDetectionDatasetMetadata = NULL,
   translationDatasetMetadata = NULL, exampleCount = NULL,
   videoObjectTrackingDatasetMetadata = NULL,
-  textClassificationDatasetMetadata = NULL, displayName = NULL)
+  textClassificationDatasetMetadata = NULL, displayName = NULL,
+  createTime = NULL, textExtractionDatasetMetadata = NULL,
+  videoClassificationDatasetMetadata = NULL,
+  tablesDatasetMetadata = NULL)
 }
 \arguments{
-\item{createTime}{Output only}
-
-\item{textExtractionDatasetMetadata}{Metadata for a dataset used for text extraction}
-
-\item{videoClassificationDatasetMetadata}{Metadata for a dataset used for video classification}
-
-\item{tablesDatasetMetadata}{Metadata for a dataset used for Tables}
-
 \item{description}{User-provided description of the dataset}
 
 \item{imageClassificationDatasetMetadata}{Metadata for a dataset used for image classification}
@@ -44,6 +36,14 @@ Dataset(createTime = NULL, textExtractionDatasetMetadata = NULL,
 \item{textClassificationDatasetMetadata}{Metadata for a dataset used for text classification}
 
 \item{displayName}{Required}
+
+\item{createTime}{Output only}
+
+\item{textExtractionDatasetMetadata}{Metadata for a dataset used for text extraction}
+
+\item{videoClassificationDatasetMetadata}{Metadata for a dataset used for video classification}
+
+\item{tablesDatasetMetadata}{Metadata for a dataset used for Tables}
 }
 \value{
 Dataset object

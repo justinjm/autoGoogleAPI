@@ -4,12 +4,12 @@
 \alias{BatchPredictInputConfig}
 \title{BatchPredictInputConfig Object}
 \usage{
-BatchPredictInputConfig(bigquerySource = NULL, gcsSource = NULL)
+BatchPredictInputConfig(gcsSource = NULL, bigquerySource = NULL)
 }
 \arguments{
-\item{bigquerySource}{The BigQuery location for the input content}
-
 \item{gcsSource}{The Google Cloud Storage location for the input content}
+
+\item{bigquerySource}{The BigQuery location for the input content}
 }
 \value{
 BatchPredictInputConfig object

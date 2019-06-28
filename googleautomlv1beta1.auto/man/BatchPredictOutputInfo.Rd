@@ -4,13 +4,13 @@
 \alias{BatchPredictOutputInfo}
 \title{BatchPredictOutputInfo Object}
 \usage{
-BatchPredictOutputInfo(gcsOutputDirectory = NULL,
-  bigqueryOutputDataset = NULL)
+BatchPredictOutputInfo(bigqueryOutputDataset = NULL,
+  gcsOutputDirectory = NULL)
 }
 \arguments{
-\item{gcsOutputDirectory}{The full path of the Google Cloud Storage directory created, into which}
-
 \item{bigqueryOutputDataset}{The path of the BigQuery dataset created, in bq://projectId}
+
+\item{gcsOutputDirectory}{The full path of the Google Cloud Storage directory created, into which}
 }
 \value{
 BatchPredictOutputInfo object

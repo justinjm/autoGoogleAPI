@@ -4,17 +4,17 @@
 \alias{ExamplePayload}
 \title{ExamplePayload Object}
 \usage{
-ExamplePayload(row = NULL, textSnippet = NULL, document = NULL,
-  image = NULL)
+ExamplePayload(textSnippet = NULL, document = NULL, image = NULL,
+  row = NULL)
 }
 \arguments{
-\item{row}{Example relational table row}
-
 \item{textSnippet}{Example text}
 
 \item{document}{Example document}
 
 \item{image}{Example image}
+
+\item{row}{Example relational table row}
 }
 \value{
 ExamplePayload object

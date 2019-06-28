@@ -5,23 +5,23 @@
 \title{Operation Object}
 \usage{
 Operation(Operation.metadata = NULL, Operation.response = NULL,
-  metadata = NULL, done = NULL, response = NULL, name = NULL,
-  error = NULL)
+  name = NULL, error = NULL, metadata = NULL, done = NULL,
+  response = NULL)
 }
 \arguments{
 \item{Operation.metadata}{The \link{Operation.metadata} object or list of objects}
 
 \item{Operation.response}{The \link{Operation.response} object or list of objects}
 
+\item{name}{The server-assigned name, which is only unique within the same service that}
+
+\item{error}{The error result of the operation in case of failure or cancellation}
+
 \item{metadata}{Service-specific metadata associated with the operation}
 
 \item{done}{If the value is `false`, it means the operation is still in progress}
 
 \item{response}{The normal response of the operation in case of success}
-
-\item{name}{The server-assigned name, which is only unique within the same service that}
-
-\item{error}{The error result of the operation in case of failure or cancellation}
 }
 \value{
 Operation object
