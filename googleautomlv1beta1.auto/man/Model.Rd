@@ -4,28 +4,36 @@
 \alias{Model}
 \title{Model Object}
 \usage{
-Model(deploymentState = NULL, imageClassificationModelMetadata = NULL,
-  createTime = NULL, tablesModelMetadata = NULL,
-  textExtractionModelMetadata = NULL, updateTime = NULL,
+Model(name = NULL, translationModelMetadata = NULL,
+  videoClassificationModelMetadata = NULL, displayName = NULL,
+  deploymentState = NULL, imageClassificationModelMetadata = NULL,
+  createTime = NULL, updateTime = NULL,
+  textExtractionModelMetadata = NULL, tablesModelMetadata = NULL,
   textClassificationModelMetadata = NULL, datasetId = NULL,
   imageObjectDetectionModelMetadata = NULL,
   textSentimentModelMetadata = NULL,
-  videoObjectTrackingModelMetadata = NULL, name = NULL,
-  translationModelMetadata = NULL,
-  videoClassificationModelMetadata = NULL, displayName = NULL)
+  videoObjectTrackingModelMetadata = NULL)
 }
 \arguments{
+\item{name}{Output only}
+
+\item{translationModelMetadata}{Metadata for translation models}
+
+\item{videoClassificationModelMetadata}{Metadata for video classification models}
+
+\item{displayName}{Required}
+
 \item{deploymentState}{Output only}
 
 \item{imageClassificationModelMetadata}{Metadata for image classification models}
 
 \item{createTime}{Output only}
 
-\item{tablesModelMetadata}{Metadata for Tables models}
+\item{updateTime}{Output only}
 
 \item{textExtractionModelMetadata}{Metadata for text extraction models}
 
-\item{updateTime}{Output only}
+\item{tablesModelMetadata}{Metadata for Tables models}
 
 \item{textClassificationModelMetadata}{Metadata for text classification models}
 
@@ -36,14 +44,6 @@ Model(deploymentState = NULL, imageClassificationModelMetadata = NULL,
 \item{textSentimentModelMetadata}{Metadata for text sentiment models}
 
 \item{videoObjectTrackingModelMetadata}{Metadata for video object tracking models}
-
-\item{name}{Output only}
-
-\item{translationModelMetadata}{Metadata for translation models}
-
-\item{videoClassificationModelMetadata}{Metadata for video classification models}
-
-\item{displayName}{Required}
 }
 \value{
 Model object

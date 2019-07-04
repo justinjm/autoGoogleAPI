@@ -4,13 +4,13 @@
 \alias{ExportDataOutputInfo}
 \title{ExportDataOutputInfo Object}
 \usage{
-ExportDataOutputInfo(bigqueryOutputDataset = NULL,
-  gcsOutputDirectory = NULL)
+ExportDataOutputInfo(gcsOutputDirectory = NULL,
+  bigqueryOutputDataset = NULL)
 }
 \arguments{
-\item{bigqueryOutputDataset}{The path of the BigQuery dataset created, in bq://projectId}
-
 \item{gcsOutputDirectory}{The full path of the Google Cloud Storage directory created, into which}
+
+\item{bigqueryOutputDataset}{The path of the BigQuery dataset created, in bq://projectId}
 }
 \value{
 ExportDataOutputInfo object

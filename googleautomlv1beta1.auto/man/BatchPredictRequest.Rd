@@ -4,17 +4,17 @@
 \alias{BatchPredictRequest}
 \title{BatchPredictRequest Object}
 \usage{
-BatchPredictRequest(BatchPredictRequest.params = NULL,
-  inputConfig = NULL, outputConfig = NULL, params = NULL)
+BatchPredictRequest(BatchPredictRequest.params = NULL, params = NULL,
+  inputConfig = NULL, outputConfig = NULL)
 }
 \arguments{
 \item{BatchPredictRequest.params}{The \link{BatchPredictRequest.params} object or list of objects}
 
+\item{params}{Additional domain-specific parameters for the predictions, any string must}
+
 \item{inputConfig}{Required}
 
 \item{outputConfig}{Required}
-
-\item{params}{Additional domain-specific parameters for the predictions, any string must}
 }
 \value{
 BatchPredictRequest object

@@ -4,12 +4,12 @@
 \alias{Row}
 \title{Row Object}
 \usage{
-Row(values = NULL, columnSpecIds = NULL)
+Row(columnSpecIds = NULL, values = NULL)
 }
 \arguments{
-\item{values}{Input Only}
-
 \item{columnSpecIds}{Input Only}
+
+\item{values}{Input Only}
 }
 \value{
 Row object

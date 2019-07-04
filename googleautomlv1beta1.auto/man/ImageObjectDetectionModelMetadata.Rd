@@ -6,7 +6,7 @@
 \usage{
 ImageObjectDetectionModelMetadata(modelType = NULL,
   trainBudgetMilliNodeHours = NULL, stopReason = NULL,
-  trainCostMilliNodeHours = NULL, nodeQps = NULL, nodeCount = NULL)
+  nodeQps = NULL, trainCostMilliNodeHours = NULL, nodeCount = NULL)
 }
 \arguments{
 \item{modelType}{Optional}
@@ -15,9 +15,9 @@ ImageObjectDetectionModelMetadata(modelType = NULL,
 
 \item{stopReason}{Output only}
 
-\item{trainCostMilliNodeHours}{Output only}
-
 \item{nodeQps}{Output only}
+
+\item{trainCostMilliNodeHours}{Output only}
 
 \item{nodeCount}{Output only}
 }

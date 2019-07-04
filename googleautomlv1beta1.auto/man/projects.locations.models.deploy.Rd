@@ -2,7 +2,7 @@
 % Please edit documentation in R/automl_functions.R
 \name{projects.locations.models.deploy}
 \alias{projects.locations.models.deploy}
-\title{Deploys a model. If a model is already deployed, deploying it with thesame parameters has no effect. Deploying with different parametrs(as e.g. changingnode_number) will reset the deployment state without pausing the model's availability.Only applicable for Text Classification, Image Object Detection and Tables;all other domains manage deployment automatically.Returns an empty response in theresponse field when it completes.}
+\title{Deploys a model. If a model is already deployed, deploying it with thesame parameters has no effect. Deploying with different parametrs(as e.g. changingnode_number) will reset the deployment state without pausing the model's availability.Only applicable for Text Classification, Image Object Detection and Tables; all other domains manage deployment automatically.Returns an empty response in theresponse field when it completes.}
 \usage{
 projects.locations.models.deploy(DeployModelRequest, name)
 }

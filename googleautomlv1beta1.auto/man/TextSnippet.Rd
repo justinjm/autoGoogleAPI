@@ -11,7 +11,7 @@ TextSnippet(content = NULL, contentUri = NULL, mimeType = NULL)
 
 \item{contentUri}{Output only}
 
-\item{mimeType}{The format of the source text}
+\item{mimeType}{Optional}
 }
 \value{
 TextSnippet object

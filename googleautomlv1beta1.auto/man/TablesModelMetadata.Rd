@@ -4,25 +4,25 @@
 \alias{TablesModelMetadata}
 \title{TablesModelMetadata Object}
 \usage{
-TablesModelMetadata(trainBudgetMilliNodeHours = NULL,
-  targetColumnSpec = NULL, disableEarlyStopping = NULL,
-  trainCostMilliNodeHours = NULL, optimizationObjective = NULL,
-  inputFeatureColumnSpecs = NULL, tablesModelColumnInfo = NULL)
+TablesModelMetadata(tablesModelColumnInfo = NULL,
+  inputFeatureColumnSpecs = NULL, trainBudgetMilliNodeHours = NULL,
+  disableEarlyStopping = NULL, trainCostMilliNodeHours = NULL,
+  targetColumnSpec = NULL, optimizationObjective = NULL)
 }
 \arguments{
-\item{trainBudgetMilliNodeHours}{Required}
+\item{tablesModelColumnInfo}{Output only}
 
-\item{targetColumnSpec}{Column spec of the dataset's primary table's column the model is}
+\item{inputFeatureColumnSpecs}{Column specs of the dataset's primary table's columns, on which}
+
+\item{trainBudgetMilliNodeHours}{Required}
 
 \item{disableEarlyStopping}{Use the entire training budget}
 
 \item{trainCostMilliNodeHours}{Output only}
 
+\item{targetColumnSpec}{Column spec of the dataset's primary table's column the model is}
+
 \item{optimizationObjective}{Objective function the model is optimizing towards}
-
-\item{inputFeatureColumnSpecs}{Column specs of the dataset's primary table's columns, on which}
-
-\item{tablesModelColumnInfo}{Output only}
 }
 \value{
 TablesModelMetadata object

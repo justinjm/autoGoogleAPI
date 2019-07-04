@@ -4,15 +4,15 @@
 \alias{VideoClassificationAnnotation}
 \title{VideoClassificationAnnotation Object}
 \usage{
-VideoClassificationAnnotation(classificationAnnotation = NULL,
-  type = NULL, timeSegment = NULL)
+VideoClassificationAnnotation(type = NULL, timeSegment = NULL,
+  classificationAnnotation = NULL)
 }
 \arguments{
-\item{classificationAnnotation}{Output only}
-
 \item{type}{Output only}
 
 \item{timeSegment}{Output only}
+
+\item{classificationAnnotation}{Output only}
 }
 \value{
 VideoClassificationAnnotation object

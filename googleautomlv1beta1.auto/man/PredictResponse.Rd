@@ -4,15 +4,15 @@
 \alias{PredictResponse}
 \title{PredictResponse Object}
 \usage{
-PredictResponse(PredictResponse.metadata = NULL, payload = NULL,
-  metadata = NULL)
+PredictResponse(PredictResponse.metadata = NULL, metadata = NULL,
+  payload = NULL)
 }
 \arguments{
 \item{PredictResponse.metadata}{The \link{PredictResponse.metadata} object or list of objects}
 
-\item{payload}{Prediction result}
-
 \item{metadata}{Additional domain-specific prediction response metadata}
+
+\item{payload}{Prediction result}
 }
 \value{
 PredictResponse object

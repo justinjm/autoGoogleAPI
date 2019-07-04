@@ -5,19 +5,19 @@
 \title{ModelExportOutputConfig Object}
 \usage{
 ModelExportOutputConfig(ModelExportOutputConfig.params = NULL,
-  modelFormat = NULL, params = NULL, gcsDestination = NULL,
-  gcrDestination = NULL)
+  params = NULL, gcsDestination = NULL, gcrDestination = NULL,
+  modelFormat = NULL)
 }
 \arguments{
 \item{ModelExportOutputConfig.params}{The \link{ModelExportOutputConfig.params} object or list of objects}
-
-\item{modelFormat}{The format in which the model must be exported}
 
 \item{params}{Additional model-type and format specific parameters describing the}
 
 \item{gcsDestination}{The Google Cloud Storage location where the model is to be written to}
 
 \item{gcrDestination}{The GCR location where model image is to be pushed to}
+
+\item{modelFormat}{The format in which the model must be exported}
 }
 \value{
 ModelExportOutputConfig object

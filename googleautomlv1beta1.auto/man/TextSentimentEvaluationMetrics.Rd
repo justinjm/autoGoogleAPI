@@ -5,9 +5,9 @@
 \title{TextSentimentEvaluationMetrics Object}
 \usage{
 TextSentimentEvaluationMetrics(annotationSpecId = NULL,
-  linearKappa = NULL, f1Score = NULL, precision = NULL,
-  meanSquaredError = NULL, confusionMatrix = NULL,
-  quadraticKappa = NULL, meanAbsoluteError = NULL, recall = NULL)
+  linearKappa = NULL, f1Score = NULL, meanSquaredError = NULL,
+  precision = NULL, confusionMatrix = NULL, quadraticKappa = NULL,
+  meanAbsoluteError = NULL, recall = NULL)
 }
 \arguments{
 \item{annotationSpecId}{Output only}
@@ -16,9 +16,9 @@ TextSentimentEvaluationMetrics(annotationSpecId = NULL,
 
 \item{f1Score}{Output only}
 
-\item{precision}{Output only}
-
 \item{meanSquaredError}{Output only}
+
+\item{precision}{Output only}
 
 \item{confusionMatrix}{Output only}
 

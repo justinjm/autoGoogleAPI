@@ -4,10 +4,12 @@
 \alias{ColumnSpec}
 \title{ColumnSpec Object}
 \usage{
-ColumnSpec(dataType = NULL, name = NULL, topCorrelatedColumns = NULL,
-  dataStats = NULL, displayName = NULL, etag = NULL)
+ColumnSpec(etag = NULL, dataType = NULL, name = NULL,
+  topCorrelatedColumns = NULL, dataStats = NULL, displayName = NULL)
 }
 \arguments{
+\item{etag}{Used to perform consistent read-modify-write updates}
+
 \item{dataType}{The data type of elements stored in the column}
 
 \item{name}{Output only}
@@ -17,8 +19,6 @@ ColumnSpec(dataType = NULL, name = NULL, topCorrelatedColumns = NULL,
 \item{dataStats}{Output only}
 
 \item{displayName}{Output only}
-
-\item{etag}{Used to perform consistent read-modify-write updates}
 }
 \value{
 ColumnSpec object

@@ -4,15 +4,15 @@
 \alias{BoundingBoxMetricsEntry}
 \title{BoundingBoxMetricsEntry Object}
 \usage{
-BoundingBoxMetricsEntry(iouThreshold = NULL,
-  meanAveragePrecision = NULL, confidenceMetricsEntries = NULL)
+BoundingBoxMetricsEntry(meanAveragePrecision = NULL,
+  confidenceMetricsEntries = NULL, iouThreshold = NULL)
 }
 \arguments{
-\item{iouThreshold}{Output only}
-
 \item{meanAveragePrecision}{Output only}
 
 \item{confidenceMetricsEntries}{Output only}
+
+\item{iouThreshold}{Output only}
 }
 \value{
 BoundingBoxMetricsEntry object
