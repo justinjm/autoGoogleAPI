@@ -4,19 +4,22 @@
 \alias{TableSpec}
 \title{TableSpec Object}
 \usage{
-TableSpec(name = NULL, timeColumnSpecId = NULL, columnCount = NULL,
-  inputConfigs = NULL, rowCount = NULL, etag = NULL)
+TableSpec(timeColumnSpecId = NULL, name = NULL, columnCount = NULL,
+  inputConfigs = NULL, rowCount = NULL, validRowCount = NULL,
+  etag = NULL)
 }
 \arguments{
-\item{name}{Output only}
-
 \item{timeColumnSpecId}{column_spec_id of the time column}
+
+\item{name}{Output only}
 
 \item{columnCount}{Output only}
 
 \item{inputConfigs}{Output only}
 
 \item{rowCount}{Output only}
+
+\item{validRowCount}{Output only}
 
 \item{etag}{Used to perform consistent read-modify-write updates}
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/automl_functions.R
 \name{projects.locations.setIamPolicy}
 \alias{projects.locations.setIamPolicy}
-\title{Sets the access control policy on the specified resource. Replaces anyexisting policy.}
+\title{Sets the access control policy on the specified resource. Replaces anyexisting policy.Can return Public Errors: NOT_FOUND, INVALID_ARGUMENT and PERMISSION_DENIED}
 \usage{
 projects.locations.setIamPolicy(SetIamPolicyRequest, resource)
 }

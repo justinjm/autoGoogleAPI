@@ -4,7 +4,10 @@
 \alias{TextClassificationModelMetadata}
 \title{TextClassificationModelMetadata Object}
 \usage{
-TextClassificationModelMetadata()
+TextClassificationModelMetadata(classificationType = NULL)
+}
+\arguments{
+\item{classificationType}{Output only}
 }
 \value{
 TextClassificationModelMetadata object

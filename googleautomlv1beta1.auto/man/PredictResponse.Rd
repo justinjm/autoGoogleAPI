@@ -5,7 +5,7 @@
 \title{PredictResponse Object}
 \usage{
 PredictResponse(PredictResponse.metadata = NULL, metadata = NULL,
-  payload = NULL)
+  payload = NULL, preprocessedInput = NULL)
 }
 \arguments{
 \item{PredictResponse.metadata}{The \link{PredictResponse.metadata} object or list of objects}
@@ -13,6 +13,8 @@ PredictResponse(PredictResponse.metadata = NULL, metadata = NULL,
 \item{metadata}{Additional domain-specific prediction response metadata}
 
 \item{payload}{Prediction result}
+
+\item{preprocessedInput}{The preprocessed example that AutoML actually makes prediction on}
 }
 \value{
 PredictResponse object

@@ -6,8 +6,10 @@
 \usage{
 TablesModelMetadata(tablesModelColumnInfo = NULL,
   inputFeatureColumnSpecs = NULL, trainBudgetMilliNodeHours = NULL,
-  disableEarlyStopping = NULL, trainCostMilliNodeHours = NULL,
-  targetColumnSpec = NULL, optimizationObjective = NULL)
+  targetColumnSpec = NULL, optimizationObjectiveRecallValue = NULL,
+  trainCostMilliNodeHours = NULL, disableEarlyStopping = NULL,
+  optimizationObjective = NULL,
+  optimizationObjectivePrecisionValue = NULL)
 }
 \arguments{
 \item{tablesModelColumnInfo}{Output only}
@@ -16,13 +18,17 @@ TablesModelMetadata(tablesModelColumnInfo = NULL,
 
 \item{trainBudgetMilliNodeHours}{Required}
 
-\item{disableEarlyStopping}{Use the entire training budget}
+\item{targetColumnSpec}{Column spec of the dataset's primary table's column the model is}
+
+\item{optimizationObjectiveRecallValue}{Required when optimization_objective is 'MAXIMIZE_PRECISION_AT_RECALL'}
 
 \item{trainCostMilliNodeHours}{Output only}
 
-\item{targetColumnSpec}{Column spec of the dataset's primary table's column the model is}
+\item{disableEarlyStopping}{Use the entire training budget}
 
 \item{optimizationObjective}{Objective function the model is optimizing towards}
+
+\item{optimizationObjectivePrecisionValue}{Required when optimization_objective is 'MAXIMIZE_RECALL_AT_PRECISION'}
 }
 \value{
 TablesModelMetadata object

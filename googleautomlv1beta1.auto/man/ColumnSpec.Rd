@@ -4,21 +4,21 @@
 \alias{ColumnSpec}
 \title{ColumnSpec Object}
 \usage{
-ColumnSpec(etag = NULL, dataType = NULL, name = NULL,
-  topCorrelatedColumns = NULL, dataStats = NULL, displayName = NULL)
+ColumnSpec(topCorrelatedColumns = NULL, dataStats = NULL,
+  displayName = NULL, etag = NULL, dataType = NULL, name = NULL)
 }
 \arguments{
+\item{topCorrelatedColumns}{Deprecated}
+
+\item{dataStats}{Output only}
+
+\item{displayName}{Output only}
+
 \item{etag}{Used to perform consistent read-modify-write updates}
 
 \item{dataType}{The data type of elements stored in the column}
 
 \item{name}{Output only}
-
-\item{topCorrelatedColumns}{Output only}
-
-\item{dataStats}{Output only}
-
-\item{displayName}{Output only}
 }
 \value{
 ColumnSpec object

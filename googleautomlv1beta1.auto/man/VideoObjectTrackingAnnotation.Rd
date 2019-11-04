@@ -4,17 +4,17 @@
 \alias{VideoObjectTrackingAnnotation}
 \title{VideoObjectTrackingAnnotation Object}
 \usage{
-VideoObjectTrackingAnnotation(timeOffset = NULL, score = NULL,
-  instanceId = NULL, boundingBox = NULL)
+VideoObjectTrackingAnnotation(instanceId = NULL, boundingBox = NULL,
+  timeOffset = NULL, score = NULL)
 }
 \arguments{
-\item{timeOffset}{Required}
-
-\item{score}{Output only}
-
 \item{instanceId}{Optional}
 
 \item{boundingBox}{Required}
+
+\item{timeOffset}{Required}
+
+\item{score}{Output only}
 }
 \value{
 VideoObjectTrackingAnnotation object

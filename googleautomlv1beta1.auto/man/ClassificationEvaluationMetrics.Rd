@@ -4,11 +4,13 @@
 \alias{ClassificationEvaluationMetrics}
 \title{ClassificationEvaluationMetrics Object}
 \usage{
-ClassificationEvaluationMetrics(auRoc = NULL, baseAuPrc = NULL,
-  annotationSpecId = NULL, logLoss = NULL, auPrc = NULL,
-  confusionMatrix = NULL, confidenceMetricsEntry = NULL)
+ClassificationEvaluationMetrics(confidenceMetricsEntry = NULL,
+  auRoc = NULL, baseAuPrc = NULL, annotationSpecId = NULL,
+  logLoss = NULL, auPrc = NULL, confusionMatrix = NULL)
 }
 \arguments{
+\item{confidenceMetricsEntry}{Output only}
+
 \item{auRoc}{Output only}
 
 \item{baseAuPrc}{Output only}
@@ -20,8 +22,6 @@ ClassificationEvaluationMetrics(auRoc = NULL, baseAuPrc = NULL,
 \item{auPrc}{Output only}
 
 \item{confusionMatrix}{Output only}
-
-\item{confidenceMetricsEntry}{Output only}
 }
 \value{
 ClassificationEvaluationMetrics object

@@ -4,17 +4,23 @@
 \alias{Dataset}
 \title{Dataset Object}
 \usage{
-Dataset(createTime = NULL, textExtractionDatasetMetadata = NULL,
+Dataset(videoObjectTrackingDatasetMetadata = NULL, displayName = NULL,
+  textClassificationDatasetMetadata = NULL, createTime = NULL,
+  textExtractionDatasetMetadata = NULL,
   videoClassificationDatasetMetadata = NULL,
   tablesDatasetMetadata = NULL, description = NULL,
   imageClassificationDatasetMetadata = NULL, etag = NULL,
   textSentimentDatasetMetadata = NULL, name = NULL,
   imageObjectDetectionDatasetMetadata = NULL,
-  translationDatasetMetadata = NULL, exampleCount = NULL,
-  videoObjectTrackingDatasetMetadata = NULL, displayName = NULL,
-  textClassificationDatasetMetadata = NULL)
+  translationDatasetMetadata = NULL, exampleCount = NULL)
 }
 \arguments{
+\item{videoObjectTrackingDatasetMetadata}{Metadata for a dataset used for video object tracking}
+
+\item{displayName}{Required}
+
+\item{textClassificationDatasetMetadata}{Metadata for a dataset used for text classification}
+
 \item{createTime}{Output only}
 
 \item{textExtractionDatasetMetadata}{Metadata for a dataset used for text extraction}
@@ -38,12 +44,6 @@ Dataset(createTime = NULL, textExtractionDatasetMetadata = NULL,
 \item{translationDatasetMetadata}{Metadata for a dataset used for translation}
 
 \item{exampleCount}{Output only}
-
-\item{videoObjectTrackingDatasetMetadata}{Metadata for a dataset used for video object tracking}
-
-\item{displayName}{Required}
-
-\item{textClassificationDatasetMetadata}{Metadata for a dataset used for text classification}
 }
 \value{
 Dataset object

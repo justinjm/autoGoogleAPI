@@ -4,12 +4,12 @@
 \alias{Row}
 \title{Row Object}
 \usage{
-Row(columnSpecIds = NULL, values = NULL)
+Row(values = NULL, columnSpecIds = NULL)
 }
 \arguments{
-\item{columnSpecIds}{Input Only}
+\item{values}{Required}
 
-\item{values}{Input Only}
+\item{columnSpecIds}{The resource IDs of the column specs describing the columns of the row}
 }
 \value{
 Row object

@@ -13,7 +13,7 @@
 \arguments{
 \item{TablesDatasetMetadata.targetColumnCorrelations}{The \link{TablesDatasetMetadata.targetColumnCorrelations} object or list of objects}
 
-\item{statsUpdateTime}{The most recent timestamp when target_column_correlations field and all}
+\item{statsUpdateTime}{Output only}
 
 \item{targetColumnCorrelations}{Output only}
 

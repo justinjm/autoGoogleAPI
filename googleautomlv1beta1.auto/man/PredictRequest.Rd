@@ -4,15 +4,15 @@
 \alias{PredictRequest}
 \title{PredictRequest Object}
 \usage{
-PredictRequest(PredictRequest.params = NULL, payload = NULL,
-  params = NULL)
+PredictRequest(PredictRequest.params = NULL, params = NULL,
+  payload = NULL)
 }
 \arguments{
 \item{PredictRequest.params}{The \link{PredictRequest.params} object or list of objects}
 
-\item{payload}{Required}
-
 \item{params}{Additional domain-specific parameters, any string must be up to 25000}
+
+\item{payload}{Required}
 }
 \value{
 PredictRequest object

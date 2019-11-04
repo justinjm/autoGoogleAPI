@@ -4,20 +4,20 @@
 \alias{Model}
 \title{Model Object}
 \usage{
-Model(name = NULL, translationModelMetadata = NULL,
+Model(translationModelMetadata = NULL, name = NULL,
   videoClassificationModelMetadata = NULL, displayName = NULL,
   deploymentState = NULL, imageClassificationModelMetadata = NULL,
-  createTime = NULL, updateTime = NULL,
-  textExtractionModelMetadata = NULL, tablesModelMetadata = NULL,
-  textClassificationModelMetadata = NULL, datasetId = NULL,
-  imageObjectDetectionModelMetadata = NULL,
+  createTime = NULL, tablesModelMetadata = NULL,
+  textExtractionModelMetadata = NULL, updateTime = NULL,
+  textClassificationModelMetadata = NULL,
   textSentimentModelMetadata = NULL,
+  imageObjectDetectionModelMetadata = NULL, datasetId = NULL,
   videoObjectTrackingModelMetadata = NULL)
 }
 \arguments{
-\item{name}{Output only}
-
 \item{translationModelMetadata}{Metadata for translation models}
+
+\item{name}{Output only}
 
 \item{videoClassificationModelMetadata}{Metadata for video classification models}
 
@@ -29,19 +29,19 @@ Model(name = NULL, translationModelMetadata = NULL,
 
 \item{createTime}{Output only}
 
-\item{updateTime}{Output only}
+\item{tablesModelMetadata}{Metadata for Tables models}
 
 \item{textExtractionModelMetadata}{Metadata for text extraction models}
 
-\item{tablesModelMetadata}{Metadata for Tables models}
+\item{updateTime}{Output only}
 
 \item{textClassificationModelMetadata}{Metadata for text classification models}
 
-\item{datasetId}{Required}
+\item{textSentimentModelMetadata}{Metadata for text sentiment models}
 
 \item{imageObjectDetectionModelMetadata}{Metadata for image object detection models}
 
-\item{textSentimentModelMetadata}{Metadata for text sentiment models}
+\item{datasetId}{Required}
 
 \item{videoObjectTrackingModelMetadata}{Metadata for video object tracking models}
 }

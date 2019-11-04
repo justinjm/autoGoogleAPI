@@ -4,12 +4,12 @@
 \alias{BatchPredictOperationMetadata}
 \title{BatchPredictOperationMetadata Object}
 \usage{
-BatchPredictOperationMetadata(outputInfo = NULL, inputConfig = NULL)
+BatchPredictOperationMetadata(inputConfig = NULL, outputInfo = NULL)
 }
 \arguments{
-\item{outputInfo}{Output only}
-
 \item{inputConfig}{Output only}
+
+\item{outputInfo}{Output only}
 }
 \value{
 BatchPredictOperationMetadata object

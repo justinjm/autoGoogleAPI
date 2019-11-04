@@ -4,29 +4,21 @@
 \alias{OperationMetadata}
 \title{OperationMetadata Object}
 \usage{
-OperationMetadata(undeployModelDetails = NULL, partialFailures = NULL,
-  importDataDetails = NULL, batchPredictDetails = NULL,
-  progressPercent = NULL, deployModelDetails = NULL,
-  exportModelDetails = NULL, deleteDetails = NULL,
+OperationMetadata(progressPercent = NULL, deployModelDetails = NULL,
+  deleteDetails = NULL, exportModelDetails = NULL,
   createModelDetails = NULL, createTime = NULL, updateTime = NULL,
-  exportDataDetails = NULL, exportEvaluatedExamplesDetails = NULL)
+  exportDataDetails = NULL, exportEvaluatedExamplesDetails = NULL,
+  undeployModelDetails = NULL, partialFailures = NULL,
+  importDataDetails = NULL, batchPredictDetails = NULL)
 }
 \arguments{
-\item{undeployModelDetails}{Details of an UndeployModel operation}
-
-\item{partialFailures}{Output only}
-
-\item{importDataDetails}{Details of ImportData operation}
-
-\item{batchPredictDetails}{Details of BatchPredict operation}
-
 \item{progressPercent}{Output only}
 
 \item{deployModelDetails}{Details of a DeployModel operation}
 
-\item{exportModelDetails}{Details of ExportModel operation}
-
 \item{deleteDetails}{Details of a Delete operation}
+
+\item{exportModelDetails}{Details of ExportModel operation}
 
 \item{createModelDetails}{Details of CreateModel operation}
 
@@ -37,6 +29,14 @@ OperationMetadata(undeployModelDetails = NULL, partialFailures = NULL,
 \item{exportDataDetails}{Details of ExportData operation}
 
 \item{exportEvaluatedExamplesDetails}{Details of ExportEvaluatedExamples operation}
+
+\item{undeployModelDetails}{Details of an UndeployModel operation}
+
+\item{partialFailures}{Output only}
+
+\item{importDataDetails}{Details of ImportData operation}
+
+\item{batchPredictDetails}{Details of BatchPredict operation}
 }
 \value{
 OperationMetadata object

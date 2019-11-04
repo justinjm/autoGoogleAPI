@@ -4,24 +4,20 @@
 \alias{AnnotationPayload}
 \title{AnnotationPayload Object}
 \usage{
-AnnotationPayload(translation = NULL, textSentiment = NULL,
-  videoObjectTracking = NULL, tables = NULL, annotationSpecId = NULL,
-  videoClassification = NULL, classification = NULL,
-  textExtraction = NULL, imageObjectDetection = NULL,
-  displayName = NULL)
+AnnotationPayload(videoObjectTracking = NULL, tables = NULL,
+  videoClassification = NULL, annotationSpecId = NULL,
+  classification = NULL, textExtraction = NULL,
+  imageObjectDetection = NULL, displayName = NULL,
+  textSentiment = NULL, translation = NULL)
 }
 \arguments{
-\item{translation}{Annotation details for translation}
-
-\item{textSentiment}{Annotation details for text sentiment}
-
 \item{videoObjectTracking}{Annotation details for video object tracking}
 
 \item{tables}{Annotation details for Tables}
 
-\item{annotationSpecId}{Output only}
-
 \item{videoClassification}{Annotation details for video classification}
+
+\item{annotationSpecId}{Output only}
 
 \item{classification}{Annotation details for content or image classification}
 
@@ -30,6 +26,10 @@ AnnotationPayload(translation = NULL, textSentiment = NULL,
 \item{imageObjectDetection}{Annotation details for image object detection}
 
 \item{displayName}{Output only}
+
+\item{textSentiment}{Annotation details for text sentiment}
+
+\item{translation}{Annotation details for translation}
 }
 \value{
 AnnotationPayload object

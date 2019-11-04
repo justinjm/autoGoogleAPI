@@ -4,9 +4,18 @@
 \alias{Document}
 \title{Document Object}
 \usage{
-Document(inputConfig = NULL)
+Document(documentText = NULL, layout = NULL, pageCount = NULL,
+  documentDimensions = NULL, inputConfig = NULL)
 }
 \arguments{
+\item{documentText}{The plain text version of this document}
+
+\item{layout}{Describes the layout of the document}
+
+\item{pageCount}{Number of pages in the document}
+
+\item{documentDimensions}{The dimensions of the page in the document}
+
 \item{inputConfig}{An input config specifying the content of the document}
 }
 \value{

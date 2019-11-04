@@ -4,30 +4,22 @@
 \alias{ModelEvaluation}
 \title{ModelEvaluation Object}
 \usage{
-ModelEvaluation(createTime = NULL, annotationSpecId = NULL,
-  imageObjectDetectionEvaluationMetrics = NULL,
-  textExtractionEvaluationMetrics = NULL,
-  regressionEvaluationMetrics = NULL, name = NULL,
-  evaluatedExampleCount = NULL,
+ModelEvaluation(regressionEvaluationMetrics = NULL,
+  evaluatedExampleCount = NULL, name = NULL,
   videoObjectTrackingEvaluationMetrics = NULL,
   textSentimentEvaluationMetrics = NULL,
-  translationEvaluationMetrics = NULL,
-  classificationEvaluationMetrics = NULL, displayName = NULL)
+  translationEvaluationMetrics = NULL, displayName = NULL,
+  classificationEvaluationMetrics = NULL, createTime = NULL,
+  annotationSpecId = NULL,
+  imageObjectDetectionEvaluationMetrics = NULL,
+  textExtractionEvaluationMetrics = NULL)
 }
 \arguments{
-\item{createTime}{Output only}
-
-\item{annotationSpecId}{Output only}
-
-\item{imageObjectDetectionEvaluationMetrics}{Model evaluation metrics for image object detection}
-
-\item{textExtractionEvaluationMetrics}{Evaluation metrics for text extraction models}
-
 \item{regressionEvaluationMetrics}{Model evaluation metrics for Tables regression}
 
-\item{name}{Output only}
-
 \item{evaluatedExampleCount}{Output only}
+
+\item{name}{Output only}
 
 \item{videoObjectTrackingEvaluationMetrics}{Model evaluation metrics for video object tracking}
 
@@ -35,9 +27,17 @@ ModelEvaluation(createTime = NULL, annotationSpecId = NULL,
 
 \item{translationEvaluationMetrics}{Model evaluation metrics for translation}
 
+\item{displayName}{Output only}
+
 \item{classificationEvaluationMetrics}{Model evaluation metrics for image, text, video and tables}
 
-\item{displayName}{Output only}
+\item{createTime}{Output only}
+
+\item{annotationSpecId}{Output only}
+
+\item{imageObjectDetectionEvaluationMetrics}{Model evaluation metrics for image object detection}
+
+\item{textExtractionEvaluationMetrics}{Evaluation metrics for text extraction models}
 }
 \value{
 ModelEvaluation object
