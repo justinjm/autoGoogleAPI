@@ -4,12 +4,12 @@
 \alias{Image}
 \title{Image Object}
 \usage{
-Image(thumbnailUri = NULL, imageBytes = NULL)
+Image(imageBytes = NULL, thumbnailUri = NULL)
 }
 \arguments{
-\item{thumbnailUri}{Output only}
-
 \item{imageBytes}{Image content represented as a stream of bytes}
+
+\item{thumbnailUri}{Output only}
 }
 \value{
 Image object

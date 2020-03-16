@@ -4,14 +4,14 @@
 \alias{TextSnippet}
 \title{TextSnippet Object}
 \usage{
-TextSnippet(content = NULL, contentUri = NULL, mimeType = NULL)
+TextSnippet(mimeType = NULL, content = NULL, contentUri = NULL)
 }
 \arguments{
+\item{mimeType}{Optional}
+
 \item{content}{Required}
 
 \item{contentUri}{Output only}
-
-\item{mimeType}{Optional}
 }
 \value{
 TextSnippet object

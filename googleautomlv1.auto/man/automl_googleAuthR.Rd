@@ -8,8 +8,8 @@
 Train high-quality custom machine learning models with minimum effort and machine learning expertise.}
 \description{
 Auto-generated code by googleAuthR::gar_create_api_skeleton
- at 2019-12-10 17:15:24
-filename: /Users/justinmarciszewski/Dropbox/dev/R/autoGoogleAPI/googleautomlv1.auto/R/automl_functions.R
+ at 2020-03-16 17:14:05
+filename: /Users/justin/dev/R/autoGoogleAPI/googleautomlv1.auto/R/automl_functions.R
 api_json: api_json
 }
 \details{

@@ -4,24 +4,16 @@
 \alias{Dataset}
 \title{Dataset Object}
 \usage{
-Dataset(Dataset.labels = NULL, translationDatasetMetadata = NULL,
-  exampleCount = NULL, textClassificationDatasetMetadata = NULL,
-  displayName = NULL, createTime = NULL, labels = NULL,
+Dataset(Dataset.labels = NULL, createTime = NULL, labels = NULL,
   textExtractionDatasetMetadata = NULL, description = NULL,
   imageClassificationDatasetMetadata = NULL, etag = NULL,
   textSentimentDatasetMetadata = NULL, name = NULL,
-  imageObjectDetectionDatasetMetadata = NULL)
+  imageObjectDetectionDatasetMetadata = NULL,
+  translationDatasetMetadata = NULL, exampleCount = NULL,
+  displayName = NULL, textClassificationDatasetMetadata = NULL)
 }
 \arguments{
 \item{Dataset.labels}{The \link{Dataset.labels} object or list of objects}
-
-\item{translationDatasetMetadata}{Metadata for a dataset used for translation}
-
-\item{exampleCount}{Output only}
-
-\item{textClassificationDatasetMetadata}{Metadata for a dataset used for text classification}
-
-\item{displayName}{Required}
 
 \item{createTime}{Output only}
 
@@ -40,6 +32,14 @@ Dataset(Dataset.labels = NULL, translationDatasetMetadata = NULL,
 \item{name}{Output only}
 
 \item{imageObjectDetectionDatasetMetadata}{Metadata for a dataset used for image object detection}
+
+\item{translationDatasetMetadata}{Metadata for a dataset used for translation}
+
+\item{exampleCount}{Output only}
+
+\item{displayName}{Required}
+
+\item{textClassificationDatasetMetadata}{Metadata for a dataset used for text classification}
 }
 \value{
 Dataset object

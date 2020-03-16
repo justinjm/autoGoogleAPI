@@ -4,45 +4,44 @@
 \alias{Model}
 \title{Model Object}
 \usage{
-Model(Model.labels = NULL, name = NULL,
-  translationModelMetadata = NULL, displayName = NULL,
-  deploymentState = NULL, createTime = NULL,
-  imageClassificationModelMetadata = NULL, labels = NULL,
-  textExtractionModelMetadata = NULL, updateTime = NULL,
+Model(Model.labels = NULL, deploymentState = NULL, labels = NULL,
+  imageClassificationModelMetadata = NULL, createTime = NULL,
+  updateTime = NULL, textExtractionModelMetadata = NULL,
   textClassificationModelMetadata = NULL, etag = NULL,
+  datasetId = NULL, textSentimentModelMetadata = NULL,
   imageObjectDetectionModelMetadata = NULL,
-  textSentimentModelMetadata = NULL, datasetId = NULL)
+  translationModelMetadata = NULL, name = NULL, displayName = NULL)
 }
 \arguments{
 \item{Model.labels}{The \link{Model.labels} object or list of objects}
 
-\item{name}{Output only}
-
-\item{translationModelMetadata}{Metadata for translation models}
-
-\item{displayName}{Required}
-
 \item{deploymentState}{Output only}
-
-\item{createTime}{Output only}
-
-\item{imageClassificationModelMetadata}{Metadata for image classification models}
 
 \item{labels}{Optional}
 
-\item{textExtractionModelMetadata}{Metadata for text extraction models}
+\item{imageClassificationModelMetadata}{Metadata for image classification models}
+
+\item{createTime}{Output only}
 
 \item{updateTime}{Output only}
+
+\item{textExtractionModelMetadata}{Metadata for text extraction models}
 
 \item{textClassificationModelMetadata}{Metadata for text classification models}
 
 \item{etag}{Used to perform a consistent read-modify-write updates}
 
-\item{imageObjectDetectionModelMetadata}{Metadata for image object detection models}
+\item{datasetId}{Required}
 
 \item{textSentimentModelMetadata}{Metadata for text sentiment models}
 
-\item{datasetId}{Required}
+\item{imageObjectDetectionModelMetadata}{Metadata for image object detection models}
+
+\item{translationModelMetadata}{Metadata for translation models}
+
+\item{name}{Output only}
+
+\item{displayName}{Required}
 }
 \value{
 Model object

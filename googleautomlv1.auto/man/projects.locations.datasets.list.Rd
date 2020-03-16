@@ -8,7 +8,7 @@ projects.locations.datasets.list(parent, filter = NULL,
   pageToken = NULL, pageSize = NULL)
 }
 \arguments{
-\item{parent}{The resource name of the project from which to list datasets}
+\item{parent}{Required}
 
 \item{filter}{An expression for filtering the results of the request}
 

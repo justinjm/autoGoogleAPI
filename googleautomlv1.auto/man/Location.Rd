@@ -4,14 +4,16 @@
 \alias{Location}
 \title{Location Object}
 \usage{
-Location(Location.metadata = NULL, Location.labels = NULL,
-  name = NULL, locationId = NULL, displayName = NULL,
-  metadata = NULL, labels = NULL)
+Location(Location.labels = NULL, Location.metadata = NULL,
+  labels = NULL, name = NULL, locationId = NULL,
+  displayName = NULL, metadata = NULL)
 }
 \arguments{
+\item{Location.labels}{The \link{Location.labels} object or list of objects}
+
 \item{Location.metadata}{The \link{Location.metadata} object or list of objects}
 
-\item{Location.labels}{The \link{Location.labels} object or list of objects}
+\item{labels}{Cross-service attributes for the location}
 
 \item{name}{Resource name for the location, which may vary between implementations}
 
@@ -20,8 +22,6 @@ Location(Location.metadata = NULL, Location.labels = NULL,
 \item{displayName}{The friendly name for this location, typically a nearby city name}
 
 \item{metadata}{Service-specific metadata}
-
-\item{labels}{Cross-service attributes for the location}
 }
 \value{
 Location object

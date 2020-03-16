@@ -4,13 +4,13 @@
 \alias{DeployModelRequest}
 \title{DeployModelRequest Object}
 \usage{
-DeployModelRequest(imageObjectDetectionModelDeploymentMetadata = NULL,
-  imageClassificationModelDeploymentMetadata = NULL)
+DeployModelRequest(imageClassificationModelDeploymentMetadata = NULL,
+  imageObjectDetectionModelDeploymentMetadata = NULL)
 }
 \arguments{
-\item{imageObjectDetectionModelDeploymentMetadata}{Model deployment metadata specific to Image Object Detection}
-
 \item{imageClassificationModelDeploymentMetadata}{Model deployment metadata specific to Image Classification}
+
+\item{imageObjectDetectionModelDeploymentMetadata}{Model deployment metadata specific to Image Object Detection}
 }
 \value{
 DeployModelRequest object

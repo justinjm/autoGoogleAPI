@@ -4,12 +4,19 @@
 \alias{TextSentimentEvaluationMetrics}
 \title{TextSentimentEvaluationMetrics Object}
 \usage{
-TextSentimentEvaluationMetrics(quadraticKappa = NULL,
-  meanAbsoluteError = NULL, recall = NULL, linearKappa = NULL,
-  f1Score = NULL, precision = NULL, meanSquaredError = NULL,
-  confusionMatrix = NULL)
+TextSentimentEvaluationMetrics(f1Score = NULL, meanSquaredError = NULL,
+  precision = NULL, confusionMatrix = NULL, quadraticKappa = NULL,
+  meanAbsoluteError = NULL, recall = NULL, linearKappa = NULL)
 }
 \arguments{
+\item{f1Score}{Output only}
+
+\item{meanSquaredError}{Output only}
+
+\item{precision}{Output only}
+
+\item{confusionMatrix}{Output only}
+
 \item{quadraticKappa}{Output only}
 
 \item{meanAbsoluteError}{Output only}
@@ -17,14 +24,6 @@ TextSentimentEvaluationMetrics(quadraticKappa = NULL,
 \item{recall}{Output only}
 
 \item{linearKappa}{Output only}
-
-\item{f1Score}{Output only}
-
-\item{precision}{Output only}
-
-\item{meanSquaredError}{Output only}
-
-\item{confusionMatrix}{Output only}
 }
 \value{
 TextSentimentEvaluationMetrics object
