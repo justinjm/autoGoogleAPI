@@ -4,14 +4,14 @@
 \alias{AnnotationSpec}
 \title{AnnotationSpec Object}
 \usage{
-AnnotationSpec(name = NULL, displayName = NULL, exampleCount = NULL)
+AnnotationSpec(exampleCount = NULL, name = NULL, displayName = NULL)
 }
 \arguments{
+\item{exampleCount}{Output only}
+
 \item{name}{Output only}
 
 \item{displayName}{Required}
-
-\item{exampleCount}{Output only}
 }
 \value{
 AnnotationSpec object

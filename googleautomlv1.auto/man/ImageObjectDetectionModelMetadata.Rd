@@ -13,7 +13,7 @@ ImageObjectDetectionModelMetadata(nodeCount = NULL, modelType = NULL,
 
 \item{modelType}{Optional}
 
-\item{trainBudgetMilliNodeHours}{The train budget of creating this model, expressed in milli node}
+\item{trainBudgetMilliNodeHours}{Optional}
 
 \item{stopReason}{Output only}
 

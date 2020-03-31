@@ -4,12 +4,12 @@
 \alias{ListOperationsResponse}
 \title{ListOperationsResponse Object}
 \usage{
-ListOperationsResponse(operations = NULL, nextPageToken = NULL)
+ListOperationsResponse(nextPageToken = NULL, operations = NULL)
 }
 \arguments{
-\item{operations}{A list of operations that matches the specified filter in the request}
-
 \item{nextPageToken}{The standard List next-page token}
+
+\item{operations}{A list of operations that matches the specified filter in the request}
 }
 \value{
 ListOperationsResponse object

@@ -4,24 +4,31 @@
 \alias{Model}
 \title{Model Object}
 \usage{
-Model(Model.labels = NULL, deploymentState = NULL, labels = NULL,
-  imageClassificationModelMetadata = NULL, createTime = NULL,
-  updateTime = NULL, textExtractionModelMetadata = NULL,
+Model(Model.labels = NULL, translationModelMetadata = NULL,
+  name = NULL, displayName = NULL, deploymentState = NULL,
+  createTime = NULL, imageClassificationModelMetadata = NULL,
+  labels = NULL, updateTime = NULL,
+  textExtractionModelMetadata = NULL,
   textClassificationModelMetadata = NULL, etag = NULL,
-  datasetId = NULL, textSentimentModelMetadata = NULL,
   imageObjectDetectionModelMetadata = NULL,
-  translationModelMetadata = NULL, name = NULL, displayName = NULL)
+  textSentimentModelMetadata = NULL, datasetId = NULL)
 }
 \arguments{
 \item{Model.labels}{The \link{Model.labels} object or list of objects}
 
+\item{translationModelMetadata}{Metadata for translation models}
+
+\item{name}{Output only}
+
+\item{displayName}{Required}
+
 \item{deploymentState}{Output only}
 
-\item{labels}{Optional}
+\item{createTime}{Output only}
 
 \item{imageClassificationModelMetadata}{Metadata for image classification models}
 
-\item{createTime}{Output only}
+\item{labels}{Optional}
 
 \item{updateTime}{Output only}
 
@@ -31,17 +38,11 @@ Model(Model.labels = NULL, deploymentState = NULL, labels = NULL,
 
 \item{etag}{Used to perform a consistent read-modify-write updates}
 
-\item{datasetId}{Required}
+\item{imageObjectDetectionModelMetadata}{Metadata for image object detection models}
 
 \item{textSentimentModelMetadata}{Metadata for text sentiment models}
 
-\item{imageObjectDetectionModelMetadata}{Metadata for image object detection models}
-
-\item{translationModelMetadata}{Metadata for translation models}
-
-\item{name}{Output only}
-
-\item{displayName}{Required}
+\item{datasetId}{Required}
 }
 \value{
 Model object

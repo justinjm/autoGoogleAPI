@@ -4,14 +4,14 @@
 \alias{Status}
 \title{Status Object}
 \usage{
-Status(message = NULL, details = NULL, code = NULL)
+Status(details = NULL, code = NULL, message = NULL)
 }
 \arguments{
-\item{message}{A developer-facing error message, which should be in English}
-
 \item{details}{A list of messages that carry the error details}
 
 \item{code}{The status code, which should be an enum value of google}
+
+\item{message}{A developer-facing error message, which should be in English}
 }
 \value{
 Status object
