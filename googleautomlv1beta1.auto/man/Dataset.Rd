@@ -4,17 +4,21 @@
 \alias{Dataset}
 \title{Dataset Object}
 \usage{
-Dataset(videoObjectTrackingDatasetMetadata = NULL, displayName = NULL,
+Dataset(translationDatasetMetadata = NULL, exampleCount = NULL,
+  videoObjectTrackingDatasetMetadata = NULL, displayName = NULL,
   textClassificationDatasetMetadata = NULL, createTime = NULL,
   textExtractionDatasetMetadata = NULL,
   videoClassificationDatasetMetadata = NULL,
   tablesDatasetMetadata = NULL, description = NULL,
   imageClassificationDatasetMetadata = NULL, etag = NULL,
   textSentimentDatasetMetadata = NULL, name = NULL,
-  imageObjectDetectionDatasetMetadata = NULL,
-  translationDatasetMetadata = NULL, exampleCount = NULL)
+  imageObjectDetectionDatasetMetadata = NULL)
 }
 \arguments{
+\item{translationDatasetMetadata}{Metadata for a dataset used for translation}
+
+\item{exampleCount}{Output only}
+
 \item{videoObjectTrackingDatasetMetadata}{Metadata for a dataset used for video object tracking}
 
 \item{displayName}{Required}
@@ -40,10 +44,6 @@ Dataset(videoObjectTrackingDatasetMetadata = NULL, displayName = NULL,
 \item{name}{Output only}
 
 \item{imageObjectDetectionDatasetMetadata}{Metadata for a dataset used for image object detection}
-
-\item{translationDatasetMetadata}{Metadata for a dataset used for translation}
-
-\item{exampleCount}{Output only}
 }
 \value{
 Dataset object

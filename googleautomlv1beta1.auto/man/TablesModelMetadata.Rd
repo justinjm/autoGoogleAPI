@@ -4,14 +4,18 @@
 \alias{TablesModelMetadata}
 \title{TablesModelMetadata Object}
 \usage{
-TablesModelMetadata(tablesModelColumnInfo = NULL,
-  inputFeatureColumnSpecs = NULL, trainBudgetMilliNodeHours = NULL,
-  targetColumnSpec = NULL, optimizationObjectiveRecallValue = NULL,
-  trainCostMilliNodeHours = NULL, disableEarlyStopping = NULL,
-  optimizationObjective = NULL,
-  optimizationObjectivePrecisionValue = NULL)
+TablesModelMetadata(optimizationObjective = NULL,
+  optimizationObjectivePrecisionValue = NULL,
+  tablesModelColumnInfo = NULL, inputFeatureColumnSpecs = NULL,
+  trainBudgetMilliNodeHours = NULL, targetColumnSpec = NULL,
+  optimizationObjectiveRecallValue = NULL, disableEarlyStopping = NULL,
+  trainCostMilliNodeHours = NULL)
 }
 \arguments{
+\item{optimizationObjective}{Objective function the model is optimizing towards}
+
+\item{optimizationObjectivePrecisionValue}{Required when optimization_objective is 'MAXIMIZE_RECALL_AT_PRECISION'}
+
 \item{tablesModelColumnInfo}{Output only}
 
 \item{inputFeatureColumnSpecs}{Column specs of the dataset's primary table's columns, on which}
@@ -22,13 +26,9 @@ TablesModelMetadata(tablesModelColumnInfo = NULL,
 
 \item{optimizationObjectiveRecallValue}{Required when optimization_objective is 'MAXIMIZE_PRECISION_AT_RECALL'}
 
-\item{trainCostMilliNodeHours}{Output only}
-
 \item{disableEarlyStopping}{Use the entire training budget}
 
-\item{optimizationObjective}{Objective function the model is optimizing towards}
-
-\item{optimizationObjectivePrecisionValue}{Required when optimization_objective is 'MAXIMIZE_RECALL_AT_PRECISION'}
+\item{trainCostMilliNodeHours}{Output only}
 }
 \value{
 TablesModelMetadata object

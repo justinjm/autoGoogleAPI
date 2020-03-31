@@ -5,36 +5,37 @@
 \title{OperationMetadata Object}
 \usage{
 OperationMetadata(progressPercent = NULL, deployModelDetails = NULL,
-  deleteDetails = NULL, exportModelDetails = NULL,
-  createModelDetails = NULL, createTime = NULL, updateTime = NULL,
-  exportDataDetails = NULL, exportEvaluatedExamplesDetails = NULL,
-  undeployModelDetails = NULL, partialFailures = NULL,
-  importDataDetails = NULL, batchPredictDetails = NULL)
+  exportModelDetails = NULL, deleteDetails = NULL,
+  createModelDetails = NULL, createTime = NULL,
+  exportDataDetails = NULL, updateTime = NULL,
+  exportEvaluatedExamplesDetails = NULL, undeployModelDetails = NULL,
+  importDataDetails = NULL, partialFailures = NULL,
+  batchPredictDetails = NULL)
 }
 \arguments{
 \item{progressPercent}{Output only}
 
 \item{deployModelDetails}{Details of a DeployModel operation}
 
-\item{deleteDetails}{Details of a Delete operation}
-
 \item{exportModelDetails}{Details of ExportModel operation}
+
+\item{deleteDetails}{Details of a Delete operation}
 
 \item{createModelDetails}{Details of CreateModel operation}
 
 \item{createTime}{Output only}
 
-\item{updateTime}{Output only}
-
 \item{exportDataDetails}{Details of ExportData operation}
+
+\item{updateTime}{Output only}
 
 \item{exportEvaluatedExamplesDetails}{Details of ExportEvaluatedExamples operation}
 
 \item{undeployModelDetails}{Details of an UndeployModel operation}
 
-\item{partialFailures}{Output only}
-
 \item{importDataDetails}{Details of ImportData operation}
+
+\item{partialFailures}{Output only}
 
 \item{batchPredictDetails}{Details of BatchPredict operation}
 }

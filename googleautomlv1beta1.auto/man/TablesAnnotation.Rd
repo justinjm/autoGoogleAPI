@@ -5,7 +5,7 @@
 \title{TablesAnnotation Object}
 \usage{
 TablesAnnotation(score = NULL, predictionInterval = NULL,
-  value = NULL, tablesModelColumnInfo = NULL)
+  value = NULL, baselineScore = NULL, tablesModelColumnInfo = NULL)
 }
 \arguments{
 \item{score}{Output only}
@@ -13,6 +13,8 @@ TablesAnnotation(score = NULL, predictionInterval = NULL,
 \item{predictionInterval}{Output only}
 
 \item{value}{The predicted value of the row's}
+
+\item{baselineScore}{Output only}
 
 \item{tablesModelColumnInfo}{Output only}
 }

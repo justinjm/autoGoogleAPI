@@ -4,13 +4,13 @@
 \alias{TranslationDatasetMetadata}
 \title{TranslationDatasetMetadata Object}
 \usage{
-TranslationDatasetMetadata(sourceLanguageCode = NULL,
-  targetLanguageCode = NULL)
+TranslationDatasetMetadata(targetLanguageCode = NULL,
+  sourceLanguageCode = NULL)
 }
 \arguments{
-\item{sourceLanguageCode}{Required}
-
 \item{targetLanguageCode}{Required}
+
+\item{sourceLanguageCode}{Required}
 }
 \value{
 TranslationDatasetMetadata object

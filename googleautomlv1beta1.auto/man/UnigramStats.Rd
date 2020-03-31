@@ -4,12 +4,12 @@
 \alias{UnigramStats}
 \title{UnigramStats Object}
 \usage{
-UnigramStats(value = NULL, count = NULL)
+UnigramStats(count = NULL, value = NULL)
 }
 \arguments{
-\item{value}{The unigram}
-
 \item{count}{The number of occurrences of this unigram in the series}
+
+\item{value}{The unigram}
 }
 \value{
 UnigramStats object

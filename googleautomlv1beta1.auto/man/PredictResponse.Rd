@@ -4,17 +4,17 @@
 \alias{PredictResponse}
 \title{PredictResponse Object}
 \usage{
-PredictResponse(PredictResponse.metadata = NULL, metadata = NULL,
-  payload = NULL, preprocessedInput = NULL)
+PredictResponse(PredictResponse.metadata = NULL, payload = NULL,
+  preprocessedInput = NULL, metadata = NULL)
 }
 \arguments{
 \item{PredictResponse.metadata}{The \link{PredictResponse.metadata} object or list of objects}
 
-\item{metadata}{Additional domain-specific prediction response metadata}
-
 \item{payload}{Prediction result}
 
 \item{preprocessedInput}{The preprocessed example that AutoML actually makes prediction on}
+
+\item{metadata}{Additional domain-specific prediction response metadata}
 }
 \value{
 PredictResponse object

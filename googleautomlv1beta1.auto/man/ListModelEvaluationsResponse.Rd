@@ -4,13 +4,13 @@
 \alias{ListModelEvaluationsResponse}
 \title{ListModelEvaluationsResponse Object}
 \usage{
-ListModelEvaluationsResponse(modelEvaluation = NULL,
-  nextPageToken = NULL)
+ListModelEvaluationsResponse(nextPageToken = NULL,
+  modelEvaluation = NULL)
 }
 \arguments{
-\item{modelEvaluation}{List of model evaluations in the requested page}
-
 \item{nextPageToken}{A token to retrieve next page of results}
+
+\item{modelEvaluation}{List of model evaluations in the requested page}
 }
 \value{
 ListModelEvaluationsResponse object

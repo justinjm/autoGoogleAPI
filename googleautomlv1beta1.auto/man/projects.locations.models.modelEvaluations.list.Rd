@@ -8,7 +8,7 @@ projects.locations.models.modelEvaluations.list(parent, pageToken = NULL,
   pageSize = NULL, filter = NULL)
 }
 \arguments{
-\item{parent}{Resource name of the model to list the model evaluations for}
+\item{parent}{Required}
 
 \item{pageToken}{A token identifying a page of results for the server to return}
 

@@ -4,14 +4,14 @@
 \alias{Image}
 \title{Image Object}
 \usage{
-Image(inputConfig = NULL, thumbnailUri = NULL, imageBytes = NULL)
+Image(imageBytes = NULL, inputConfig = NULL, thumbnailUri = NULL)
 }
 \arguments{
+\item{imageBytes}{Image content represented as a stream of bytes}
+
 \item{inputConfig}{An input config specifying the content of the image}
 
 \item{thumbnailUri}{Output only}
-
-\item{imageBytes}{Image content represented as a stream of bytes}
 }
 \value{
 Image object

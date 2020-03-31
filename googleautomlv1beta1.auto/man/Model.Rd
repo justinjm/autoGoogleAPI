@@ -4,30 +4,20 @@
 \alias{Model}
 \title{Model Object}
 \usage{
-Model(translationModelMetadata = NULL, name = NULL,
-  videoClassificationModelMetadata = NULL, displayName = NULL,
-  deploymentState = NULL, imageClassificationModelMetadata = NULL,
-  createTime = NULL, tablesModelMetadata = NULL,
-  textExtractionModelMetadata = NULL, updateTime = NULL,
-  textClassificationModelMetadata = NULL,
+Model(createTime = NULL, imageClassificationModelMetadata = NULL,
+  tablesModelMetadata = NULL, textExtractionModelMetadata = NULL,
+  updateTime = NULL, textClassificationModelMetadata = NULL,
   textSentimentModelMetadata = NULL,
   imageObjectDetectionModelMetadata = NULL, datasetId = NULL,
-  videoObjectTrackingModelMetadata = NULL)
+  videoObjectTrackingModelMetadata = NULL,
+  translationModelMetadata = NULL, name = NULL,
+  videoClassificationModelMetadata = NULL, displayName = NULL,
+  deploymentState = NULL)
 }
 \arguments{
-\item{translationModelMetadata}{Metadata for translation models}
-
-\item{name}{Output only}
-
-\item{videoClassificationModelMetadata}{Metadata for video classification models}
-
-\item{displayName}{Required}
-
-\item{deploymentState}{Output only}
+\item{createTime}{Output only}
 
 \item{imageClassificationModelMetadata}{Metadata for image classification models}
-
-\item{createTime}{Output only}
 
 \item{tablesModelMetadata}{Metadata for Tables models}
 
@@ -44,6 +34,16 @@ Model(translationModelMetadata = NULL, name = NULL,
 \item{datasetId}{Required}
 
 \item{videoObjectTrackingModelMetadata}{Metadata for video object tracking models}
+
+\item{translationModelMetadata}{Metadata for translation models}
+
+\item{name}{Output only}
+
+\item{videoClassificationModelMetadata}{Metadata for video classification models}
+
+\item{displayName}{Required}
+
+\item{deploymentState}{Output only}
 }
 \value{
 Model object

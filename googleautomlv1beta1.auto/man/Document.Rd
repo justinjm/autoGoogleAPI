@@ -4,10 +4,12 @@
 \alias{Document}
 \title{Document Object}
 \usage{
-Document(documentText = NULL, layout = NULL, pageCount = NULL,
-  documentDimensions = NULL, inputConfig = NULL)
+Document(inputConfig = NULL, documentText = NULL, layout = NULL,
+  pageCount = NULL, documentDimensions = NULL)
 }
 \arguments{
+\item{inputConfig}{An input config specifying the content of the document}
+
 \item{documentText}{The plain text version of this document}
 
 \item{layout}{Describes the layout of the document}
@@ -15,8 +17,6 @@ Document(documentText = NULL, layout = NULL, pageCount = NULL,
 \item{pageCount}{Number of pages in the document}
 
 \item{documentDimensions}{The dimensions of the page in the document}
-
-\item{inputConfig}{An input config specifying the content of the document}
 }
 \value{
 Document object

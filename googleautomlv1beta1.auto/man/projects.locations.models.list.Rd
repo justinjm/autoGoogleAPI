@@ -8,7 +8,7 @@ projects.locations.models.list(parent, filter = NULL, pageToken = NULL,
   pageSize = NULL)
 }
 \arguments{
-\item{parent}{Resource name of the project, from which to list the models}
+\item{parent}{Required}
 
 \item{filter}{An expression for filtering the results of the request}
 

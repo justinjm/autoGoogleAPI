@@ -4,12 +4,12 @@
 \alias{TimeSegment}
 \title{TimeSegment Object}
 \usage{
-TimeSegment(endTimeOffset = NULL, startTimeOffset = NULL)
+TimeSegment(startTimeOffset = NULL, endTimeOffset = NULL)
 }
 \arguments{
-\item{endTimeOffset}{End of the time segment (exclusive), represented as the duration since the}
-
 \item{startTimeOffset}{Start of the time segment (inclusive), represented as the duration since}
+
+\item{endTimeOffset}{End of the time segment (exclusive), represented as the duration since the}
 }
 \value{
 TimeSegment object

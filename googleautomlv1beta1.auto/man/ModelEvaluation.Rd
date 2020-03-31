@@ -4,17 +4,22 @@
 \alias{ModelEvaluation}
 \title{ModelEvaluation Object}
 \usage{
-ModelEvaluation(regressionEvaluationMetrics = NULL,
-  evaluatedExampleCount = NULL, name = NULL,
-  videoObjectTrackingEvaluationMetrics = NULL,
+ModelEvaluation(annotationSpecId = NULL,
+  imageObjectDetectionEvaluationMetrics = NULL,
+  textExtractionEvaluationMetrics = NULL,
+  regressionEvaluationMetrics = NULL, evaluatedExampleCount = NULL,
+  name = NULL, videoObjectTrackingEvaluationMetrics = NULL,
   textSentimentEvaluationMetrics = NULL,
   translationEvaluationMetrics = NULL, displayName = NULL,
-  classificationEvaluationMetrics = NULL, createTime = NULL,
-  annotationSpecId = NULL,
-  imageObjectDetectionEvaluationMetrics = NULL,
-  textExtractionEvaluationMetrics = NULL)
+  classificationEvaluationMetrics = NULL, createTime = NULL)
 }
 \arguments{
+\item{annotationSpecId}{Output only}
+
+\item{imageObjectDetectionEvaluationMetrics}{Model evaluation metrics for image object detection}
+
+\item{textExtractionEvaluationMetrics}{Evaluation metrics for text extraction models}
+
 \item{regressionEvaluationMetrics}{Model evaluation metrics for Tables regression}
 
 \item{evaluatedExampleCount}{Output only}
@@ -32,12 +37,6 @@ ModelEvaluation(regressionEvaluationMetrics = NULL,
 \item{classificationEvaluationMetrics}{Model evaluation metrics for image, text, video and tables}
 
 \item{createTime}{Output only}
-
-\item{annotationSpecId}{Output only}
-
-\item{imageObjectDetectionEvaluationMetrics}{Model evaluation metrics for image object detection}
-
-\item{textExtractionEvaluationMetrics}{Evaluation metrics for text extraction models}
 }
 \value{
 ModelEvaluation object

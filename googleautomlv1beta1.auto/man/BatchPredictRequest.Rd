@@ -10,7 +10,7 @@ BatchPredictRequest(BatchPredictRequest.params = NULL, params = NULL,
 \arguments{
 \item{BatchPredictRequest.params}{The \link{BatchPredictRequest.params} object or list of objects}
 
-\item{params}{Additional domain-specific parameters for the predictions, any string must}
+\item{params}{Required}
 
 \item{inputConfig}{Required}
 

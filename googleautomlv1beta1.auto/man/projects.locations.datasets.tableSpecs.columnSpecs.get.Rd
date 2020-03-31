@@ -8,7 +8,7 @@ projects.locations.datasets.tableSpecs.columnSpecs.get(name,
   fieldMask = NULL)
 }
 \arguments{
-\item{name}{The resource name of the column spec to retrieve}
+\item{name}{Required}
 
 \item{fieldMask}{Mask specifying which fields to read}
 }

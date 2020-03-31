@@ -4,18 +4,12 @@
 \alias{DataStats}
 \title{DataStats Object}
 \usage{
-DataStats(stringStats = NULL, arrayStats = NULL, structStats = NULL,
-  categoryStats = NULL, distinctValueCount = NULL,
+DataStats(categoryStats = NULL, distinctValueCount = NULL,
   validValueCount = NULL, nullValueCount = NULL, float64Stats = NULL,
-  timestampStats = NULL)
+  timestampStats = NULL, stringStats = NULL, arrayStats = NULL,
+  structStats = NULL)
 }
 \arguments{
-\item{stringStats}{The statistics for STRING DataType}
-
-\item{arrayStats}{The statistics for ARRAY DataType}
-
-\item{structStats}{The statistics for STRUCT DataType}
-
 \item{categoryStats}{The statistics for CATEGORY DataType}
 
 \item{distinctValueCount}{The number of distinct values}
@@ -27,6 +21,12 @@ DataStats(stringStats = NULL, arrayStats = NULL, structStats = NULL,
 \item{float64Stats}{The statistics for FLOAT64 DataType}
 
 \item{timestampStats}{The statistics for TIMESTAMP DataType}
+
+\item{stringStats}{The statistics for STRING DataType}
+
+\item{arrayStats}{The statistics for ARRAY DataType}
+
+\item{structStats}{The statistics for STRUCT DataType}
 }
 \value{
 DataStats object

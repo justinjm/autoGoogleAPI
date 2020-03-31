@@ -7,7 +7,7 @@
 projects.locations.datasets.tableSpecs.get(name, fieldMask = NULL)
 }
 \arguments{
-\item{name}{The resource name of the table spec to retrieve}
+\item{name}{Required}
 
 \item{fieldMask}{Mask specifying which fields to read}
 }
