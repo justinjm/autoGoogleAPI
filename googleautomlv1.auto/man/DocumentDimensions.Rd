@@ -4,14 +4,14 @@
 \alias{DocumentDimensions}
 \title{DocumentDimensions Object}
 \usage{
-DocumentDimensions(width = NULL, unit = NULL, height = NULL)
+DocumentDimensions(height = NULL, unit = NULL, width = NULL)
 }
 \arguments{
-\item{width}{Width value of the document, works together with the unit}
+\item{height}{Height value of the document, works together with the unit}
 
 \item{unit}{Unit of the dimension}
 
-\item{height}{Height value of the document, works together with the unit}
+\item{width}{Width value of the document, works together with the unit}
 }
 \value{
 DocumentDimensions object

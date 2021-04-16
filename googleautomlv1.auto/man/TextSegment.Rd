@@ -4,14 +4,14 @@
 \alias{TextSegment}
 \title{TextSegment Object}
 \usage{
-TextSegment(content = NULL, endOffset = NULL, startOffset = NULL)
+TextSegment(endOffset = NULL, startOffset = NULL, content = NULL)
 }
 \arguments{
-\item{content}{Output only}
-
 \item{endOffset}{Required}
 
 \item{startOffset}{Required}
+
+\item{content}{Output only}
 }
 \value{
 TextSegment object

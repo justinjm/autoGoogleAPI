@@ -2,7 +2,7 @@
 % Please edit documentation in R/automl_functions.R
 \name{projects.locations.models.deploy}
 \alias{projects.locations.models.deploy}
-\title{Deploys a model. If a model is already deployed, deploying it with thesame parameters has no effect. Deploying with different parametrs(as e.g. changingnode_number) will reset the deployment state without pausing the model's availability.Only applicable for Text Classification, Image Object Detection , Tables, and Image Segmentation; all other domains managedeployment automatically.Returns an empty response in theresponse field when it completes.}
+\title{Deploys a model. If a model is already deployed, deploying it with the same parameters has no effect. Deploying with different parametrs (as e.g. changing node_number) will reset the deployment state without pausing the model's availability. Only applicable for Text Classification, Image Object Detection , Tables, and Image Segmentation; all other domains manage deployment automatically. Returns an empty response in the response field when it completes.}
 \usage{
 projects.locations.models.deploy(DeployModelRequest, name)
 }
@@ -27,6 +27,7 @@ See \code{\link[googleAuthR]{gar_auth}} for details.
 \seealso{
 \href{https://cloud.google.com/automl}{Google Documentation}
 
-Other DeployModelRequest functions: \code{\link{DeployModelRequest}}
+Other DeployModelRequest functions: 
+\code{\link{DeployModelRequest}()}
 }
 \concept{DeployModelRequest functions}

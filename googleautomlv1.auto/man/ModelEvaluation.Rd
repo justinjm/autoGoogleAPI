@@ -4,34 +4,39 @@
 \alias{ModelEvaluation}
 \title{ModelEvaluation Object}
 \usage{
-ModelEvaluation(displayName = NULL,
-  classificationEvaluationMetrics = NULL, createTime = NULL,
-  name = NULL, evaluatedExampleCount = NULL,
-  textSentimentEvaluationMetrics = NULL,
+ModelEvaluation(
+  classificationEvaluationMetrics = NULL,
+  displayName = NULL,
   imageObjectDetectionEvaluationMetrics = NULL,
-  translationEvaluationMetrics = NULL, annotationSpecId = NULL,
-  textExtractionEvaluationMetrics = NULL)
+  textExtractionEvaluationMetrics = NULL,
+  translationEvaluationMetrics = NULL,
+  textSentimentEvaluationMetrics = NULL,
+  name = NULL,
+  evaluatedExampleCount = NULL,
+  annotationSpecId = NULL,
+  createTime = NULL
+)
 }
 \arguments{
+\item{classificationEvaluationMetrics}{Model evaluation metrics for image, text, video and tables classification}
+
 \item{displayName}{Output only}
 
-\item{classificationEvaluationMetrics}{Model evaluation metrics for image, text, video and tables}
+\item{imageObjectDetectionEvaluationMetrics}{Model evaluation metrics for image object detection}
 
-\item{createTime}{Output only}
+\item{textExtractionEvaluationMetrics}{Evaluation metrics for text extraction models}
+
+\item{translationEvaluationMetrics}{Model evaluation metrics for translation}
+
+\item{textSentimentEvaluationMetrics}{Evaluation metrics for text sentiment models}
 
 \item{name}{Output only}
 
 \item{evaluatedExampleCount}{Output only}
 
-\item{textSentimentEvaluationMetrics}{Evaluation metrics for text sentiment models}
-
-\item{imageObjectDetectionEvaluationMetrics}{Model evaluation metrics for image object detection}
-
-\item{translationEvaluationMetrics}{Model evaluation metrics for translation}
-
 \item{annotationSpecId}{Output only}
 
-\item{textExtractionEvaluationMetrics}{Evaluation metrics for text extraction models}
+\item{createTime}{Output only}
 }
 \value{
 ModelEvaluation object

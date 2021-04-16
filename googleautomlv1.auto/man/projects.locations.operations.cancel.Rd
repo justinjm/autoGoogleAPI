@@ -2,7 +2,7 @@
 % Please edit documentation in R/automl_functions.R
 \name{projects.locations.operations.cancel}
 \alias{projects.locations.operations.cancel}
-\title{Starts asynchronous cancellation on a long-running operation.  The servermakes a best effort to cancel the operation, but success is notguaranteed.  If the server doesn't support this method, it returns`google.rpc.Code.UNIMPLEMENTED`.  Clients can useOperations.GetOperation orother methods to check whether the cancellation succeeded or whether theoperation completed despite cancellation. On successful cancellation,the operation is not deleted; instead, it becomes an operation withan Operation.error value with a google.rpc.Status.code of 1,corresponding to `Code.CANCELLED`.}
+\title{Starts asynchronous cancellation on a long-running operation. The server makes a best effort to cancel the operation, but success is not guaranteed. If the server doesn't support this method, it returns `google.rpc.Code.UNIMPLEMENTED`. Clients can use Operations.GetOperation or other methods to check whether the cancellation succeeded or whether the operation completed despite cancellation. On successful cancellation, the operation is not deleted; instead, it becomes an operation with an Operation.error value with a google.rpc.Status.code of 1, corresponding to `Code.CANCELLED`.}
 \usage{
 projects.locations.operations.cancel(CancelOperationRequest, name)
 }
@@ -27,6 +27,7 @@ See \code{\link[googleAuthR]{gar_auth}} for details.
 \seealso{
 \href{https://cloud.google.com/automl}{Google Documentation}
 
-Other CancelOperationRequest functions: \code{\link{CancelOperationRequest}}
+Other CancelOperationRequest functions: 
+\code{\link{CancelOperationRequest}()}
 }
 \concept{CancelOperationRequest functions}

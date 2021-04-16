@@ -4,24 +4,30 @@
 \alias{AnnotationPayload}
 \title{AnnotationPayload Object}
 \usage{
-AnnotationPayload(classification = NULL, textExtraction = NULL,
-  imageObjectDetection = NULL, displayName = NULL,
-  textSentiment = NULL, translation = NULL, annotationSpecId = NULL)
+AnnotationPayload(
+  textSentiment = NULL,
+  displayName = NULL,
+  textExtraction = NULL,
+  annotationSpecId = NULL,
+  imageObjectDetection = NULL,
+  classification = NULL,
+  translation = NULL
+)
 }
 \arguments{
-\item{classification}{Annotation details for content or image classification}
-
-\item{textExtraction}{Annotation details for text extraction}
-
-\item{imageObjectDetection}{Annotation details for image object detection}
+\item{textSentiment}{Annotation details for text sentiment}
 
 \item{displayName}{Output only}
 
-\item{textSentiment}{Annotation details for text sentiment}
-
-\item{translation}{Annotation details for translation}
+\item{textExtraction}{Annotation details for text extraction}
 
 \item{annotationSpecId}{Output only}
+
+\item{imageObjectDetection}{Annotation details for image object detection}
+
+\item{classification}{Annotation details for content or image classification}
+
+\item{translation}{Annotation details for translation}
 }
 \value{
 AnnotationPayload object

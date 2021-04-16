@@ -2,7 +2,7 @@
 % Please edit documentation in R/automl_functions.R
 \name{projects.locations.datasets.delete}
 \alias{projects.locations.datasets.delete}
-\title{Deletes a dataset and all of its contents.Returns empty response in theresponse field when it completes,and `delete_details` in themetadata field.}
+\title{Deletes a dataset and all of its contents. Returns empty response in the response field when it completes, and `delete_details` in the metadata field.}
 \usage{
 projects.locations.datasets.delete(name)
 }

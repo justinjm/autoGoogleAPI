@@ -4,12 +4,12 @@
 \alias{ImageObjectDetectionAnnotation}
 \title{ImageObjectDetectionAnnotation Object}
 \usage{
-ImageObjectDetectionAnnotation(score = NULL, boundingBox = NULL)
+ImageObjectDetectionAnnotation(boundingBox = NULL, score = NULL)
 }
 \arguments{
-\item{score}{Output only}
-
 \item{boundingBox}{Output only}
+
+\item{score}{Output only}
 }
 \value{
 ImageObjectDetectionAnnotation object

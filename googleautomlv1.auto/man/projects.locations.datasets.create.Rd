@@ -27,8 +27,9 @@ See \code{\link[googleAuthR]{gar_auth}} for details.
 \seealso{
 \href{https://cloud.google.com/automl}{Google Documentation}
 
-Other Dataset functions: \code{\link{Dataset.labels}},
-  \code{\link{Dataset}},
-  \code{\link{projects.locations.datasets.patch}}
+Other Dataset functions: 
+\code{\link{Dataset.labels}()},
+\code{\link{Dataset}()},
+\code{\link{projects.locations.datasets.patch}()}
 }
 \concept{Dataset functions}

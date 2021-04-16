@@ -4,15 +4,14 @@
 \alias{ConfusionMatrix}
 \title{ConfusionMatrix Object}
 \usage{
-ConfusionMatrix(annotationSpecId = NULL, row = NULL,
-  displayName = NULL)
+ConfusionMatrix(annotationSpecId = NULL, displayName = NULL, row = NULL)
 }
 \arguments{
 \item{annotationSpecId}{Output only}
 
-\item{row}{Output only}
-
 \item{displayName}{Output only}
+
+\item{row}{Output only}
 }
 \value{
 ConfusionMatrix object

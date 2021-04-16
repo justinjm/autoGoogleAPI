@@ -4,42 +4,51 @@
 \alias{ClassificationEvaluationMetricsConfidenceMetricsEntry}
 \title{ClassificationEvaluationMetricsConfidenceMetricsEntry Object}
 \usage{
-ClassificationEvaluationMetricsConfidenceMetricsEntry(recallAt1 = NULL,
-  f1ScoreAt1 = NULL, precision = NULL, truePositiveCount = NULL,
-  precisionAt1 = NULL, confidenceThreshold = NULL, f1Score = NULL,
-  trueNegativeCount = NULL, positionThreshold = NULL,
-  falseNegativeCount = NULL, falsePositiveCount = NULL,
-  falsePositiveRate = NULL, recall = NULL,
-  falsePositiveRateAt1 = NULL)
+ClassificationEvaluationMetricsConfidenceMetricsEntry(
+  falsePositiveCount = NULL,
+  recall = NULL,
+  f1Score = NULL,
+  recallAt1 = NULL,
+  falsePositiveRateAt1 = NULL,
+  f1ScoreAt1 = NULL,
+  falseNegativeCount = NULL,
+  falsePositiveRate = NULL,
+  positionThreshold = NULL,
+  truePositiveCount = NULL,
+  trueNegativeCount = NULL,
+  confidenceThreshold = NULL,
+  precisionAt1 = NULL,
+  precision = NULL
+)
 }
 \arguments{
-\item{recallAt1}{Output only}
-
-\item{f1ScoreAt1}{Output only}
-
-\item{precision}{Output only}
-
-\item{truePositiveCount}{Output only}
-
-\item{precisionAt1}{Output only}
-
-\item{confidenceThreshold}{Output only}
-
-\item{f1Score}{Output only}
-
-\item{trueNegativeCount}{Output only}
-
-\item{positionThreshold}{Output only}
-
-\item{falseNegativeCount}{Output only}
-
 \item{falsePositiveCount}{Output only}
-
-\item{falsePositiveRate}{Output only}
 
 \item{recall}{Output only}
 
+\item{f1Score}{Output only}
+
+\item{recallAt1}{Output only}
+
 \item{falsePositiveRateAt1}{Output only}
+
+\item{f1ScoreAt1}{Output only}
+
+\item{falseNegativeCount}{Output only}
+
+\item{falsePositiveRate}{Output only}
+
+\item{positionThreshold}{Output only}
+
+\item{truePositiveCount}{Output only}
+
+\item{trueNegativeCount}{Output only}
+
+\item{confidenceThreshold}{Output only}
+
+\item{precisionAt1}{Output only}
+
+\item{precision}{Output only}
 }
 \value{
 ClassificationEvaluationMetricsConfidenceMetricsEntry object

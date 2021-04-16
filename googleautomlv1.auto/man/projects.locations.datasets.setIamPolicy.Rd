@@ -2,7 +2,7 @@
 % Please edit documentation in R/automl_functions.R
 \name{projects.locations.datasets.setIamPolicy}
 \alias{projects.locations.datasets.setIamPolicy}
-\title{Sets the access control policy on the specified resource. Replaces anyexisting policy.Can return Public Errors: NOT_FOUND, INVALID_ARGUMENT and PERMISSION_DENIED}
+\title{Sets the access control policy on the specified resource. Replaces any existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and `PERMISSION_DENIED` errors.}
 \usage{
 projects.locations.datasets.setIamPolicy(SetIamPolicyRequest, resource)
 }
@@ -27,8 +27,9 @@ See \code{\link[googleAuthR]{gar_auth}} for details.
 \seealso{
 \href{https://cloud.google.com/automl}{Google Documentation}
 
-Other SetIamPolicyRequest functions: \code{\link{SetIamPolicyRequest}},
-  \code{\link{projects.locations.models.setIamPolicy}},
-  \code{\link{projects.locations.setIamPolicy}}
+Other SetIamPolicyRequest functions: 
+\code{\link{SetIamPolicyRequest}()},
+\code{\link{projects.locations.models.setIamPolicy}()},
+\code{\link{projects.locations.setIamPolicy}()}
 }
 \concept{SetIamPolicyRequest functions}

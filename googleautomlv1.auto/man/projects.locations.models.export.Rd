@@ -2,7 +2,7 @@
 % Please edit documentation in R/automl_functions.R
 \name{projects.locations.models.export}
 \alias{projects.locations.models.export}
-\title{Exports a trained, 'export-able', model to a user specified Google CloudStorage location. A model is considered export-able if and only if it hasan export format defined for it inModelExportOutputConfig.Returns an empty response in theresponse field when it completes.}
+\title{Exports a trained, 'export-able', model to a user specified Google Cloud Storage location. A model is considered export-able if and only if it has an export format defined for it in ModelExportOutputConfig. Returns an empty response in the response field when it completes.}
 \usage{
 projects.locations.models.export(ExportModelRequest, name)
 }
@@ -27,6 +27,7 @@ See \code{\link[googleAuthR]{gar_auth}} for details.
 \seealso{
 \href{https://cloud.google.com/automl}{Google Documentation}
 
-Other ExportModelRequest functions: \code{\link{ExportModelRequest}}
+Other ExportModelRequest functions: 
+\code{\link{ExportModelRequest}()}
 }
 \concept{ExportModelRequest functions}

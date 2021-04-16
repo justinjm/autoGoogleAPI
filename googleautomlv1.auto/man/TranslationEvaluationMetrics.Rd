@@ -4,12 +4,12 @@
 \alias{TranslationEvaluationMetrics}
 \title{TranslationEvaluationMetrics Object}
 \usage{
-TranslationEvaluationMetrics(bleuScore = NULL, baseBleuScore = NULL)
+TranslationEvaluationMetrics(baseBleuScore = NULL, bleuScore = NULL)
 }
 \arguments{
-\item{bleuScore}{Output only}
-
 \item{baseBleuScore}{Output only}
+
+\item{bleuScore}{Output only}
 }
 \value{
 TranslationEvaluationMetrics object

@@ -4,8 +4,7 @@
 \alias{TextExtractionEvaluationMetrics}
 \title{TextExtractionEvaluationMetrics Object}
 \usage{
-TextExtractionEvaluationMetrics(confidenceMetricsEntries = NULL,
-  auPrc = NULL)
+TextExtractionEvaluationMetrics(confidenceMetricsEntries = NULL, auPrc = NULL)
 }
 \arguments{
 \item{confidenceMetricsEntries}{Output only}

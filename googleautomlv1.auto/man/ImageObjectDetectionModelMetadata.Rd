@@ -4,22 +4,15 @@
 \alias{ImageObjectDetectionModelMetadata}
 \title{ImageObjectDetectionModelMetadata Object}
 \usage{
-ImageObjectDetectionModelMetadata(nodeCount = NULL, modelType = NULL,
-  trainBudgetMilliNodeHours = NULL, stopReason = NULL,
-  nodeQps = NULL, trainCostMilliNodeHours = NULL)
+ImageObjectDetectionModelMetadata(
+  modelType = NULL,
+  trainBudgetMilliNodeHours = NULL
+)
 }
 \arguments{
-\item{nodeCount}{Output only}
-
 \item{modelType}{Optional}
 
 \item{trainBudgetMilliNodeHours}{Optional}
-
-\item{stopReason}{Output only}
-
-\item{nodeQps}{Output only}
-
-\item{trainCostMilliNodeHours}{Output only}
 }
 \value{
 ImageObjectDetectionModelMetadata object

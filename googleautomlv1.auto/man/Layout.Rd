@@ -4,17 +4,21 @@
 \alias{Layout}
 \title{Layout Object}
 \usage{
-Layout(boundingPoly = NULL, textSegmentType = NULL,
-  textSegment = NULL, pageNumber = NULL)
+Layout(
+  textSegmentType = NULL,
+  pageNumber = NULL,
+  textSegment = NULL,
+  boundingPoly = NULL
+)
 }
 \arguments{
-\item{boundingPoly}{The position of the text_segment in the page}
-
 \item{textSegmentType}{The type of the text_segment in document}
 
-\item{textSegment}{Text Segment that represents a segment in}
+\item{pageNumber}{Page number of the text_segment in the original document, starts from 1}
 
-\item{pageNumber}{Page number of the text_segment in the original document, starts}
+\item{textSegment}{Text Segment that represents a segment in document_text}
+
+\item{boundingPoly}{The position of the text_segment in the page}
 }
 \value{
 Layout object

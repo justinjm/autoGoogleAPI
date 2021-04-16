@@ -2,7 +2,7 @@
 % Please edit documentation in R/automl_functions.R
 \name{projects.locations.datasets.importData}
 \alias{projects.locations.datasets.importData}
-\title{Imports data into a dataset.For Tables this method can only be called on an empty Dataset.For Tables:*   Aschema_inference_version    parameter must be explicitly set.Returns an empty response in theresponse field when it completes.}
+\title{Imports data into a dataset. For Tables this method can only be called on an empty Dataset. For Tables: * A schema_inference_version parameter must be explicitly set. Returns an empty response in the response field when it completes.}
 \usage{
 projects.locations.datasets.importData(ImportDataRequest, name)
 }
@@ -27,6 +27,7 @@ See \code{\link[googleAuthR]{gar_auth}} for details.
 \seealso{
 \href{https://cloud.google.com/automl}{Google Documentation}
 
-Other ImportDataRequest functions: \code{\link{ImportDataRequest}}
+Other ImportDataRequest functions: 
+\code{\link{ImportDataRequest}()}
 }
 \concept{ImportDataRequest functions}

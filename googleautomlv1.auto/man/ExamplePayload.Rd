@@ -4,14 +4,14 @@
 \alias{ExamplePayload}
 \title{ExamplePayload Object}
 \usage{
-ExamplePayload(textSnippet = NULL, document = NULL, image = NULL)
+ExamplePayload(image = NULL, textSnippet = NULL, document = NULL)
 }
 \arguments{
+\item{image}{Example image}
+
 \item{textSnippet}{Example text}
 
 \item{document}{Example document}
-
-\item{image}{Example image}
 }
 \value{
 ExamplePayload object
