@@ -17,4 +17,7 @@ BatchPredictInputConfig object
 \description{
 BatchPredictInputConfig Object
 }
+\details{
+
+}
 \concept{BatchPredictInputConfig functions}

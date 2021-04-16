@@ -2,7 +2,7 @@
 % Please edit documentation in R/automl_functions.R
 \name{projects.locations.testIamPermissions}
 \alias{projects.locations.testIamPermissions}
-\title{Returns permissions that a caller has on the specified resource.If the resource does not exist, this will return an empty set ofpermissions, not a NOT_FOUND error.Note: This operation is designed to be used for building permission-awareUIs and command-line tools, not for authorization checking. This operationmay 'fail open' without warning.}
+\title{Returns permissions that a caller has on the specified resource. If the resource does not exist, this will return an empty set of permissions, not a `NOT_FOUND` error. Note: This operation is designed to be used for building permission-aware UIs and command-line tools, not for authorization checking. This operation may 'fail open' without warning.}
 \usage{
 projects.locations.testIamPermissions(TestIamPermissionsRequest, resource)
 }
@@ -27,6 +27,7 @@ See \code{\link[googleAuthR]{gar_auth}} for details.
 \seealso{
 \href{https://cloud.google.com/automl}{Google Documentation}
 
-Other TestIamPermissionsRequest functions: \code{\link{TestIamPermissionsRequest}}
+Other TestIamPermissionsRequest functions: 
+\code{\link{TestIamPermissionsRequest}()}
 }
 \concept{TestIamPermissionsRequest functions}

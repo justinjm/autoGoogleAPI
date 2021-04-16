@@ -4,32 +4,39 @@
 \alias{AnnotationPayload}
 \title{AnnotationPayload Object}
 \usage{
-AnnotationPayload(tables = NULL, annotationSpecId = NULL,
-  videoClassification = NULL, classification = NULL,
-  textExtraction = NULL, imageObjectDetection = NULL,
-  displayName = NULL, translation = NULL, textSentiment = NULL,
-  videoObjectTracking = NULL)
+AnnotationPayload(
+  annotationSpecId = NULL,
+  videoObjectTracking = NULL,
+  displayName = NULL,
+  classification = NULL,
+  textExtraction = NULL,
+  textSentiment = NULL,
+  videoClassification = NULL,
+  tables = NULL,
+  imageObjectDetection = NULL,
+  translation = NULL
+)
 }
 \arguments{
-\item{tables}{Annotation details for Tables}
-
 \item{annotationSpecId}{Output only}
 
-\item{videoClassification}{Annotation details for video classification}
+\item{videoObjectTracking}{Annotation details for video object tracking}
+
+\item{displayName}{Output only}
 
 \item{classification}{Annotation details for content or image classification}
 
 \item{textExtraction}{Annotation details for text extraction}
 
-\item{imageObjectDetection}{Annotation details for image object detection}
-
-\item{displayName}{Output only}
-
-\item{translation}{Annotation details for translation}
-
 \item{textSentiment}{Annotation details for text sentiment}
 
-\item{videoObjectTracking}{Annotation details for video object tracking}
+\item{videoClassification}{Annotation details for video classification}
+
+\item{tables}{Annotation details for Tables}
+
+\item{imageObjectDetection}{Annotation details for image object detection}
+
+\item{translation}{Annotation details for translation}
 }
 \value{
 AnnotationPayload object

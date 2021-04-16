@@ -4,15 +4,19 @@
 \alias{projects.locations.models.list}
 \title{Lists models.}
 \usage{
-projects.locations.models.list(parent, filter = NULL, pageToken = NULL,
-  pageSize = NULL)
+projects.locations.models.list(
+  parent,
+  filter = NULL,
+  pageToken = NULL,
+  pageSize = NULL
+)
 }
 \arguments{
 \item{parent}{Required}
 
 \item{filter}{An expression for filtering the results of the request}
 
-\item{pageToken}{A token identifying a page of results for the server to return}
+\item{pageToken}{A token identifying a page of results for the server to return Typically obtained via ListModelsResponse}
 
 \item{pageSize}{Requested page size}
 }

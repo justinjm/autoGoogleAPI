@@ -4,8 +4,11 @@
 \alias{projects.locations.datasets.tableSpecs.columnSpecs.patch}
 \title{Updates a column spec.}
 \usage{
-projects.locations.datasets.tableSpecs.columnSpecs.patch(ColumnSpec, name,
-  updateMask = NULL)
+projects.locations.datasets.tableSpecs.columnSpecs.patch(
+  ColumnSpec,
+  name,
+  updateMask = NULL
+)
 }
 \arguments{
 \item{ColumnSpec}{The \link{ColumnSpec} object to pass to this method}
@@ -30,6 +33,7 @@ See \code{\link[googleAuthR]{gar_auth}} for details.
 \seealso{
 \href{https://cloud.google.com/automl}{Google Documentation}
 
-Other ColumnSpec functions: \code{\link{ColumnSpec}}
+Other ColumnSpec functions: 
+\code{\link{ColumnSpec}()}
 }
 \concept{ColumnSpec functions}

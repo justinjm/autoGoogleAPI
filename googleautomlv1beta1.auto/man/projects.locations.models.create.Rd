@@ -2,7 +2,7 @@
 % Please edit documentation in R/automl_functions.R
 \name{projects.locations.models.create}
 \alias{projects.locations.models.create}
-\title{Creates a model.Returns a Model in the responsefield when it completes.When you create a model, several model evaluations are created for it:a global evaluation, and one evaluation for each annotation spec.}
+\title{Creates a model. Returns a Model in the response field when it completes. When you create a model, several model evaluations are created for it: a global evaluation, and one evaluation for each annotation spec.}
 \usage{
 projects.locations.models.create(Model, parent)
 }
@@ -27,6 +27,7 @@ See \code{\link[googleAuthR]{gar_auth}} for details.
 \seealso{
 \href{https://cloud.google.com/automl}{Google Documentation}
 
-Other Model functions: \code{\link{Model}}
+Other Model functions: 
+\code{\link{Model}()}
 }
 \concept{Model functions}

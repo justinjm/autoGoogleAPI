@@ -4,39 +4,45 @@
 \alias{ModelEvaluation}
 \title{ModelEvaluation Object}
 \usage{
-ModelEvaluation(annotationSpecId = NULL,
+ModelEvaluation(
   imageObjectDetectionEvaluationMetrics = NULL,
-  textExtractionEvaluationMetrics = NULL,
-  regressionEvaluationMetrics = NULL, evaluatedExampleCount = NULL,
-  name = NULL, videoObjectTrackingEvaluationMetrics = NULL,
+  regressionEvaluationMetrics = NULL,
+  classificationEvaluationMetrics = NULL,
+  name = NULL,
+  evaluatedExampleCount = NULL,
+  translationEvaluationMetrics = NULL,
+  createTime = NULL,
   textSentimentEvaluationMetrics = NULL,
-  translationEvaluationMetrics = NULL, displayName = NULL,
-  classificationEvaluationMetrics = NULL, createTime = NULL)
+  videoObjectTrackingEvaluationMetrics = NULL,
+  textExtractionEvaluationMetrics = NULL,
+  annotationSpecId = NULL,
+  displayName = NULL
+)
 }
 \arguments{
-\item{annotationSpecId}{Output only}
-
 \item{imageObjectDetectionEvaluationMetrics}{Model evaluation metrics for image object detection}
-
-\item{textExtractionEvaluationMetrics}{Evaluation metrics for text extraction models}
 
 \item{regressionEvaluationMetrics}{Model evaluation metrics for Tables regression}
 
-\item{evaluatedExampleCount}{Output only}
+\item{classificationEvaluationMetrics}{Model evaluation metrics for image, text, video and tables classification}
 
 \item{name}{Output only}
 
-\item{videoObjectTrackingEvaluationMetrics}{Model evaluation metrics for video object tracking}
-
-\item{textSentimentEvaluationMetrics}{Evaluation metrics for text sentiment models}
+\item{evaluatedExampleCount}{Output only}
 
 \item{translationEvaluationMetrics}{Model evaluation metrics for translation}
 
-\item{displayName}{Output only}
-
-\item{classificationEvaluationMetrics}{Model evaluation metrics for image, text, video and tables}
-
 \item{createTime}{Output only}
+
+\item{textSentimentEvaluationMetrics}{Evaluation metrics for text sentiment models}
+
+\item{videoObjectTrackingEvaluationMetrics}{Model evaluation metrics for video object tracking}
+
+\item{textExtractionEvaluationMetrics}{Evaluation metrics for text extraction models}
+
+\item{annotationSpecId}{Output only}
+
+\item{displayName}{Output only}
 }
 \value{
 ModelEvaluation object

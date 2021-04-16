@@ -2,7 +2,7 @@
 % Please edit documentation in R/automl_functions.R
 \name{projects.locations.datasets.exportData}
 \alias{projects.locations.datasets.exportData}
-\title{Exports dataset's data to the provided output location.Returns an empty response in theresponse field when it completes.}
+\title{Exports dataset's data to the provided output location. Returns an empty response in the response field when it completes.}
 \usage{
 projects.locations.datasets.exportData(ExportDataRequest, name)
 }
@@ -27,6 +27,7 @@ See \code{\link[googleAuthR]{gar_auth}} for details.
 \seealso{
 \href{https://cloud.google.com/automl}{Google Documentation}
 
-Other ExportDataRequest functions: \code{\link{ExportDataRequest}}
+Other ExportDataRequest functions: 
+\code{\link{ExportDataRequest}()}
 }
 \concept{ExportDataRequest functions}

@@ -4,40 +4,48 @@
 \alias{OperationMetadata}
 \title{OperationMetadata Object}
 \usage{
-OperationMetadata(progressPercent = NULL, deployModelDetails = NULL,
-  exportModelDetails = NULL, deleteDetails = NULL,
-  createModelDetails = NULL, createTime = NULL,
-  exportDataDetails = NULL, updateTime = NULL,
-  exportEvaluatedExamplesDetails = NULL, undeployModelDetails = NULL,
-  importDataDetails = NULL, partialFailures = NULL,
-  batchPredictDetails = NULL)
+OperationMetadata(
+  undeployModelDetails = NULL,
+  createTime = NULL,
+  createModelDetails = NULL,
+  updateTime = NULL,
+  deleteDetails = NULL,
+  importDataDetails = NULL,
+  progressPercent = NULL,
+  exportModelDetails = NULL,
+  exportDataDetails = NULL,
+  batchPredictDetails = NULL,
+  deployModelDetails = NULL,
+  partialFailures = NULL,
+  exportEvaluatedExamplesDetails = NULL
+)
 }
 \arguments{
-\item{progressPercent}{Output only}
-
-\item{deployModelDetails}{Details of a DeployModel operation}
-
-\item{exportModelDetails}{Details of ExportModel operation}
-
-\item{deleteDetails}{Details of a Delete operation}
-
-\item{createModelDetails}{Details of CreateModel operation}
+\item{undeployModelDetails}{Details of an UndeployModel operation}
 
 \item{createTime}{Output only}
 
-\item{exportDataDetails}{Details of ExportData operation}
+\item{createModelDetails}{Details of CreateModel operation}
 
 \item{updateTime}{Output only}
 
-\item{exportEvaluatedExamplesDetails}{Details of ExportEvaluatedExamples operation}
-
-\item{undeployModelDetails}{Details of an UndeployModel operation}
+\item{deleteDetails}{Details of a Delete operation}
 
 \item{importDataDetails}{Details of ImportData operation}
 
-\item{partialFailures}{Output only}
+\item{progressPercent}{Output only}
+
+\item{exportModelDetails}{Details of ExportModel operation}
+
+\item{exportDataDetails}{Details of ExportData operation}
 
 \item{batchPredictDetails}{Details of BatchPredict operation}
+
+\item{deployModelDetails}{Details of a DeployModel operation}
+
+\item{partialFailures}{Output only}
+
+\item{exportEvaluatedExamplesDetails}{Details of ExportEvaluatedExamples operation}
 }
 \value{
 OperationMetadata object

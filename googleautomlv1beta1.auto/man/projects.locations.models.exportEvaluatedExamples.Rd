@@ -2,11 +2,12 @@
 % Please edit documentation in R/automl_functions.R
 \name{projects.locations.models.exportEvaluatedExamples}
 \alias{projects.locations.models.exportEvaluatedExamples}
-\title{Exports examples on which the model was evaluated (i.e. which were in theTEST set of the dataset the model was created from), together with theirground truth annotations and the annotations created (predicted) by themodel.The examples, ground truth and predictions are exported in the statethey were at the moment the model was evaluated.This export is available only for 30 days since the model evaluation iscreated.Currently only available for Tables.Returns an empty response in theresponse field when it completes.}
+\title{Exports examples on which the model was evaluated (i.e. which were in the TEST set of the dataset the model was created from), together with their ground truth annotations and the annotations created (predicted) by the model. The examples, ground truth and predictions are exported in the state they were at the moment the model was evaluated. This export is available only for 30 days since the model evaluation is created. Currently only available for Tables. Returns an empty response in the response field when it completes.}
 \usage{
-
-  projects.locations.models.exportEvaluatedExamples(ExportEvaluatedExamplesRequest,
-  name)
+projects.locations.models.exportEvaluatedExamples(
+  ExportEvaluatedExamplesRequest,
+  name
+)
 }
 \arguments{
 \item{ExportEvaluatedExamplesRequest}{The \link{ExportEvaluatedExamplesRequest} object to pass to this method}
@@ -29,6 +30,7 @@ See \code{\link[googleAuthR]{gar_auth}} for details.
 \seealso{
 \href{https://cloud.google.com/automl}{Google Documentation}
 
-Other ExportEvaluatedExamplesRequest functions: \code{\link{ExportEvaluatedExamplesRequest}}
+Other ExportEvaluatedExamplesRequest functions: 
+\code{\link{ExportEvaluatedExamplesRequest}()}
 }
 \concept{ExportEvaluatedExamplesRequest functions}

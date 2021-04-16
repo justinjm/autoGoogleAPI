@@ -7,9 +7,9 @@
 TimeSegment(startTimeOffset = NULL, endTimeOffset = NULL)
 }
 \arguments{
-\item{startTimeOffset}{Start of the time segment (inclusive), represented as the duration since}
+\item{startTimeOffset}{Start of the time segment (inclusive), represented as the duration since the example start}
 
-\item{endTimeOffset}{End of the time segment (exclusive), represented as the duration since the}
+\item{endTimeOffset}{End of the time segment (exclusive), represented as the duration since the example start}
 }
 \value{
 TimeSegment object

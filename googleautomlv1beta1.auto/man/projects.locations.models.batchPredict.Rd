@@ -2,7 +2,7 @@
 % Please edit documentation in R/automl_functions.R
 \name{projects.locations.models.batchPredict}
 \alias{projects.locations.models.batchPredict}
-\title{Perform a batch prediction. Unlike the online Predict, batchprediction result won't be immediately available in the response. Instead,a long running operation object is returned. User can poll the operationresult via GetOperationmethod. Once the operation is done, BatchPredictResult is returned inthe response field.Available for following ML problems:* Image Classification* Image Object Detection* Video Classification* Video Object Tracking * Text Extraction* Tables}
+\title{Perform a batch prediction. Unlike the online Predict, batch prediction result won't be immediately available in the response. Instead, a long running operation object is returned. User can poll the operation result via GetOperation method. Once the operation is done, BatchPredictResult is returned in the response field. Available for following ML problems: * Image Classification * Image Object Detection * Video Classification * Video Object Tracking * Text Extraction * Tables}
 \usage{
 projects.locations.models.batchPredict(BatchPredictRequest, name)
 }
@@ -27,7 +27,8 @@ See \code{\link[googleAuthR]{gar_auth}} for details.
 \seealso{
 \href{https://cloud.google.com/automl}{Google Documentation}
 
-Other BatchPredictRequest functions: \code{\link{BatchPredictRequest.params}},
-  \code{\link{BatchPredictRequest}}
+Other BatchPredictRequest functions: 
+\code{\link{BatchPredictRequest.params}()},
+\code{\link{BatchPredictRequest}()}
 }
 \concept{BatchPredictRequest functions}

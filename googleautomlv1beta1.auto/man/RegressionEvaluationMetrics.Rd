@@ -4,16 +4,20 @@
 \alias{RegressionEvaluationMetrics}
 \title{RegressionEvaluationMetrics Object}
 \usage{
-RegressionEvaluationMetrics(rSquared = NULL,
-  rootMeanSquaredError = NULL, rootMeanSquaredLogError = NULL,
-  meanAbsoluteError = NULL, meanAbsolutePercentageError = NULL)
+RegressionEvaluationMetrics(
+  rootMeanSquaredError = NULL,
+  rootMeanSquaredLogError = NULL,
+  rSquared = NULL,
+  meanAbsoluteError = NULL,
+  meanAbsolutePercentageError = NULL
+)
 }
 \arguments{
-\item{rSquared}{Output only}
-
 \item{rootMeanSquaredError}{Output only}
 
 \item{rootMeanSquaredLogError}{Output only}
+
+\item{rSquared}{Output only}
 
 \item{meanAbsoluteError}{Output only}
 

@@ -4,31 +4,36 @@
 \alias{TablesModelMetadata}
 \title{TablesModelMetadata Object}
 \usage{
-TablesModelMetadata(optimizationObjective = NULL,
+TablesModelMetadata(
+  optimizationObjectiveRecallValue = NULL,
+  inputFeatureColumnSpecs = NULL,
+  disableEarlyStopping = NULL,
+  targetColumnSpec = NULL,
+  tablesModelColumnInfo = NULL,
+  trainBudgetMilliNodeHours = NULL,
+  trainCostMilliNodeHours = NULL,
   optimizationObjectivePrecisionValue = NULL,
-  tablesModelColumnInfo = NULL, inputFeatureColumnSpecs = NULL,
-  trainBudgetMilliNodeHours = NULL, targetColumnSpec = NULL,
-  optimizationObjectiveRecallValue = NULL, disableEarlyStopping = NULL,
-  trainCostMilliNodeHours = NULL)
+  optimizationObjective = NULL
+)
 }
 \arguments{
-\item{optimizationObjective}{Objective function the model is optimizing towards}
-
-\item{optimizationObjectivePrecisionValue}{Required when optimization_objective is 'MAXIMIZE_RECALL_AT_PRECISION'}
-
-\item{tablesModelColumnInfo}{Output only}
-
-\item{inputFeatureColumnSpecs}{Column specs of the dataset's primary table's columns, on which}
-
-\item{trainBudgetMilliNodeHours}{Required}
-
-\item{targetColumnSpec}{Column spec of the dataset's primary table's column the model is}
-
 \item{optimizationObjectiveRecallValue}{Required when optimization_objective is 'MAXIMIZE_PRECISION_AT_RECALL'}
+
+\item{inputFeatureColumnSpecs}{Column specs of the dataset's primary table's columns, on which the model is trained and which are used as the input for predictions}
 
 \item{disableEarlyStopping}{Use the entire training budget}
 
+\item{targetColumnSpec}{Column spec of the dataset's primary table's column the model is predicting}
+
+\item{tablesModelColumnInfo}{Output only}
+
+\item{trainBudgetMilliNodeHours}{Required}
+
 \item{trainCostMilliNodeHours}{Output only}
+
+\item{optimizationObjectivePrecisionValue}{Required when optimization_objective is 'MAXIMIZE_RECALL_AT_PRECISION'}
+
+\item{optimizationObjective}{Objective function the model is optimizing towards}
 }
 \value{
 TablesModelMetadata object

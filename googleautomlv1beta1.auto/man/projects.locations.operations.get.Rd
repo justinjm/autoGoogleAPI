@@ -2,7 +2,7 @@
 % Please edit documentation in R/automl_functions.R
 \name{projects.locations.operations.get}
 \alias{projects.locations.operations.get}
-\title{Gets the latest state of a long-running operation.  Clients can use thismethod to poll the operation result at intervals as recommended by the APIservice.}
+\title{Gets the latest state of a long-running operation. Clients can use this method to poll the operation result at intervals as recommended by the API service.}
 \usage{
 projects.locations.operations.get(name)
 }

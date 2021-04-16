@@ -9,7 +9,7 @@ TextExtractionAnnotation(score = NULL, textSegment = NULL)
 \arguments{
 \item{score}{Output only}
 
-\item{textSegment}{An entity annotation will set this, which is the part of the original}
+\item{textSegment}{An entity annotation will set this, which is the part of the original text to which the annotation pertains}
 }
 \value{
 TextExtractionAnnotation object

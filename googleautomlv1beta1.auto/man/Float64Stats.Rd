@@ -4,17 +4,21 @@
 \alias{Float64Stats}
 \title{Float64Stats Object}
 \usage{
-Float64Stats(histogramBuckets = NULL, mean = NULL,
-  standardDeviation = NULL, quantiles = NULL)
+Float64Stats(
+  quantiles = NULL,
+  histogramBuckets = NULL,
+  mean = NULL,
+  standardDeviation = NULL
+)
 }
 \arguments{
+\item{quantiles}{Ordered from 0 to k k-quantile values of the data series of n values}
+
 \item{histogramBuckets}{Histogram buckets of the data series}
 
 \item{mean}{The mean of the series}
 
 \item{standardDeviation}{The standard deviation of the series}
-
-\item{quantiles}{Ordered from 0 to k k-quantile values of the data series of n values}
 }
 \value{
 Float64Stats object

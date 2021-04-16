@@ -4,8 +4,11 @@
 \alias{projects.locations.datasets.tableSpecs.patch}
 \title{Updates a table spec.}
 \usage{
-projects.locations.datasets.tableSpecs.patch(TableSpec, name,
-  updateMask = NULL)
+projects.locations.datasets.tableSpecs.patch(
+  TableSpec,
+  name,
+  updateMask = NULL
+)
 }
 \arguments{
 \item{TableSpec}{The \link{TableSpec} object to pass to this method}
@@ -30,6 +33,7 @@ See \code{\link[googleAuthR]{gar_auth}} for details.
 \seealso{
 \href{https://cloud.google.com/automl}{Google Documentation}
 
-Other TableSpec functions: \code{\link{TableSpec}}
+Other TableSpec functions: 
+\code{\link{TableSpec}()}
 }
 \concept{TableSpec functions}

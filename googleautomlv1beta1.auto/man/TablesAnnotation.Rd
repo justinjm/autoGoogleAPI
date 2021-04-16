@@ -4,19 +4,24 @@
 \alias{TablesAnnotation}
 \title{TablesAnnotation Object}
 \usage{
-TablesAnnotation(score = NULL, predictionInterval = NULL,
-  value = NULL, baselineScore = NULL, tablesModelColumnInfo = NULL)
+TablesAnnotation(
+  value = NULL,
+  baselineScore = NULL,
+  tablesModelColumnInfo = NULL,
+  predictionInterval = NULL,
+  score = NULL
+)
 }
 \arguments{
-\item{score}{Output only}
-
-\item{predictionInterval}{Output only}
-
-\item{value}{The predicted value of the row's}
+\item{value}{The predicted value of the row's target_column}
 
 \item{baselineScore}{Output only}
 
 \item{tablesModelColumnInfo}{Output only}
+
+\item{predictionInterval}{Output only}
+
+\item{score}{Output only}
 }
 \value{
 TablesAnnotation object

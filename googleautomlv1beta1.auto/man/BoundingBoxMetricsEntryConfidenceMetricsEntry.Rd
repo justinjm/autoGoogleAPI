@@ -4,15 +4,19 @@
 \alias{BoundingBoxMetricsEntryConfidenceMetricsEntry}
 \title{BoundingBoxMetricsEntryConfidenceMetricsEntry Object}
 \usage{
-BoundingBoxMetricsEntryConfidenceMetricsEntry(recall = NULL,
-  f1Score = NULL, precision = NULL, confidenceThreshold = NULL)
+BoundingBoxMetricsEntryConfidenceMetricsEntry(
+  precision = NULL,
+  f1Score = NULL,
+  recall = NULL,
+  confidenceThreshold = NULL
+)
 }
 \arguments{
-\item{recall}{Output only}
+\item{precision}{Output only}
 
 \item{f1Score}{Output only}
 
-\item{precision}{Output only}
+\item{recall}{Output only}
 
 \item{confidenceThreshold}{Output only}
 }

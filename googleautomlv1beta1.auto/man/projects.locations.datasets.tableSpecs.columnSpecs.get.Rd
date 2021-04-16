@@ -4,8 +4,7 @@
 \alias{projects.locations.datasets.tableSpecs.columnSpecs.get}
 \title{Gets a column spec.}
 \usage{
-projects.locations.datasets.tableSpecs.columnSpecs.get(name,
-  fieldMask = NULL)
+projects.locations.datasets.tableSpecs.columnSpecs.get(name, fieldMask = NULL)
 }
 \arguments{
 \item{name}{Required}

@@ -4,24 +4,30 @@
 \alias{ImageClassificationModelMetadata}
 \title{ImageClassificationModelMetadata Object}
 \usage{
-ImageClassificationModelMetadata(modelType = NULL, trainCost = NULL,
-  stopReason = NULL, nodeQps = NULL, trainBudget = NULL,
-  nodeCount = NULL, baseModelId = NULL)
+ImageClassificationModelMetadata(
+  trainCost = NULL,
+  nodeQps = NULL,
+  baseModelId = NULL,
+  modelType = NULL,
+  stopReason = NULL,
+  nodeCount = NULL,
+  trainBudget = NULL
+)
 }
 \arguments{
-\item{modelType}{Optional}
-
 \item{trainCost}{Output only}
-
-\item{stopReason}{Output only}
 
 \item{nodeQps}{Output only}
 
-\item{trainBudget}{Required}
+\item{baseModelId}{Optional}
+
+\item{modelType}{Optional}
+
+\item{stopReason}{Output only}
 
 \item{nodeCount}{Output only}
 
-\item{baseModelId}{Optional}
+\item{trainBudget}{Required}
 }
 \value{
 ImageClassificationModelMetadata object

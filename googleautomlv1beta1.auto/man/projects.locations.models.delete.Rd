@@ -2,7 +2,7 @@
 % Please edit documentation in R/automl_functions.R
 \name{projects.locations.models.delete}
 \alias{projects.locations.models.delete}
-\title{Deletes a model.Returns `google.protobuf.Empty` in theresponse field when it completes,and `delete_details` in themetadata field.}
+\title{Deletes a model. Returns `google.protobuf.Empty` in the response field when it completes, and `delete_details` in the metadata field.}
 \usage{
 projects.locations.models.delete(name)
 }

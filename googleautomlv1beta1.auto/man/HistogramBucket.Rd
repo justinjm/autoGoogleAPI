@@ -4,14 +4,14 @@
 \alias{HistogramBucket}
 \title{HistogramBucket Object}
 \usage{
-HistogramBucket(count = NULL, min = NULL, max = NULL)
+HistogramBucket(min = NULL, count = NULL, max = NULL)
 }
 \arguments{
-\item{count}{The number of data values that are in the bucket, i}
-
 \item{min}{The minimum value of the bucket, inclusive}
 
-\item{max}{The maximum value of the bucket, exclusive unless max = `'Infinity'`, in}
+\item{count}{The number of data values that are in the bucket, i}
+
+\item{max}{The maximum value of the bucket, exclusive unless max = `'Infinity'`, in which case it's inclusive}
 }
 \value{
 HistogramBucket object

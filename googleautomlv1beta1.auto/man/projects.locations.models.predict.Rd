@@ -2,7 +2,7 @@
 % Please edit documentation in R/automl_functions.R
 \name{projects.locations.models.predict}
 \alias{projects.locations.models.predict}
-\title{Perform an online prediction. The prediction result will be directlyreturned in the response.Available for following ML problems, and their expected request payloads:* Image Classification - Image in .JPEG, .GIF or .PNG format, image_bytes                         up to 30MB.* Image Object Detection - Image in .JPEG, .GIF or .PNG format, image_bytes                           up to 30MB.* Text Classification - TextSnippet, content up to 60,000 characters,                        UTF-8 encoded.* Text Extraction - TextSnippet, content up to 30,000 characters,                    UTF-8 NFC encoded.* Translation - TextSnippet, content up to 25,000 characters, UTF-8                encoded.* Tables - Row, with column values matching the columns of the model,           up to 5MB. Not available for FORECASTINGprediction_type.* Text Sentiment - TextSnippet, content up 500 characters, UTF-8                    encoded.}
+\title{Perform an online prediction. The prediction result will be directly returned in the response. Available for following ML problems, and their expected request payloads: * Image Classification - Image in .JPEG, .GIF or .PNG format, image_bytes up to 30MB. * Image Object Detection - Image in .JPEG, .GIF or .PNG format, image_bytes up to 30MB. * Text Classification - TextSnippet, content up to 60,000 characters, UTF-8 encoded. * Text Extraction - TextSnippet, content up to 30,000 characters, UTF-8 NFC encoded. * Translation - TextSnippet, content up to 25,000 characters, UTF-8 encoded. * Tables - Row, with column values matching the columns of the model, up to 5MB. Not available for FORECASTING prediction_type. * Text Sentiment - TextSnippet, content up 500 characters, UTF-8 encoded.}
 \usage{
 projects.locations.models.predict(PredictRequest, name)
 }
@@ -27,7 +27,8 @@ See \code{\link[googleAuthR]{gar_auth}} for details.
 \seealso{
 \href{https://cloud.google.com/automl}{Google Documentation}
 
-Other PredictRequest functions: \code{\link{PredictRequest.params}},
-  \code{\link{PredictRequest}}
+Other PredictRequest functions: 
+\code{\link{PredictRequest.params}()},
+\code{\link{PredictRequest}()}
 }
 \concept{PredictRequest functions}

@@ -4,29 +4,36 @@
 \alias{TextSentimentEvaluationMetrics}
 \title{TextSentimentEvaluationMetrics Object}
 \usage{
-TextSentimentEvaluationMetrics(confusionMatrix = NULL,
-  quadraticKappa = NULL, meanAbsoluteError = NULL, recall = NULL,
-  annotationSpecId = NULL, linearKappa = NULL, f1Score = NULL,
-  meanSquaredError = NULL, precision = NULL)
+TextSentimentEvaluationMetrics(
+  meanSquaredError = NULL,
+  quadraticKappa = NULL,
+  precision = NULL,
+  annotationSpecId = NULL,
+  confusionMatrix = NULL,
+  meanAbsoluteError = NULL,
+  recall = NULL,
+  f1Score = NULL,
+  linearKappa = NULL
+)
 }
 \arguments{
-\item{confusionMatrix}{Output only}
+\item{meanSquaredError}{Output only}
 
 \item{quadraticKappa}{Output only}
+
+\item{precision}{Output only}
+
+\item{annotationSpecId}{Output only}
+
+\item{confusionMatrix}{Output only}
 
 \item{meanAbsoluteError}{Output only}
 
 \item{recall}{Output only}
 
-\item{annotationSpecId}{Output only}
-
-\item{linearKappa}{Output only}
-
 \item{f1Score}{Output only}
 
-\item{meanSquaredError}{Output only}
-
-\item{precision}{Output only}
+\item{linearKappa}{Output only}
 }
 \value{
 TextSentimentEvaluationMetrics object

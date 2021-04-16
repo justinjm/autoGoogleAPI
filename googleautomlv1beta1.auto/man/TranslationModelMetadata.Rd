@@ -4,15 +4,18 @@
 \alias{TranslationModelMetadata}
 \title{TranslationModelMetadata Object}
 \usage{
-TranslationModelMetadata(targetLanguageCode = NULL,
-  sourceLanguageCode = NULL, baseModel = NULL)
+TranslationModelMetadata(
+  targetLanguageCode = NULL,
+  baseModel = NULL,
+  sourceLanguageCode = NULL
+)
 }
 \arguments{
 \item{targetLanguageCode}{Output only}
 
-\item{sourceLanguageCode}{Output only}
+\item{baseModel}{The resource name of the model to use as a baseline to train the custom model}
 
-\item{baseModel}{The resource name of the model to use as a baseline to train the custom}
+\item{sourceLanguageCode}{Output only}
 }
 \value{
 TranslationModelMetadata object

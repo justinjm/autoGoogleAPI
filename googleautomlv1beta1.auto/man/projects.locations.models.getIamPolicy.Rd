@@ -2,10 +2,12 @@
 % Please edit documentation in R/automl_functions.R
 \name{projects.locations.models.getIamPolicy}
 \alias{projects.locations.models.getIamPolicy}
-\title{Gets the access control policy for a resource.Returns an empty policy if the resource exists and does not have a policyset.}
+\title{Gets the access control policy for a resource. Returns an empty policy if the resource exists and does not have a policy set.}
 \usage{
-projects.locations.models.getIamPolicy(resource,
-  options.requestedPolicyVersion = NULL)
+projects.locations.models.getIamPolicy(
+  resource,
+  options.requestedPolicyVersion = NULL
+)
 }
 \arguments{
 \item{resource}{REQUIRED: The resource for which the policy is being requested}

@@ -4,12 +4,12 @@
 \alias{SingleCategoryStats}
 \title{SingleCategoryStats Object}
 \usage{
-SingleCategoryStats(value = NULL, count = NULL)
+SingleCategoryStats(count = NULL, value = NULL)
 }
 \arguments{
-\item{value}{The CATEGORY value}
-
 \item{count}{The number of occurrences of this value in the series}
+
+\item{value}{The CATEGORY value}
 }
 \value{
 SingleCategoryStats object

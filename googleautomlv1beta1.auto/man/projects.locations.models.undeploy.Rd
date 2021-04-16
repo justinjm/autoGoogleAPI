@@ -2,7 +2,7 @@
 % Please edit documentation in R/automl_functions.R
 \name{projects.locations.models.undeploy}
 \alias{projects.locations.models.undeploy}
-\title{Undeploys a model. If the model is not deployed this method has no effect.Only applicable for Text Classification, Image Object Detection and Tables;all other domains manage deployment automatically.Returns an empty response in theresponse field when it completes.}
+\title{Undeploys a model. If the model is not deployed this method has no effect. Only applicable for Text Classification, Image Object Detection and Tables; all other domains manage deployment automatically. Returns an empty response in the response field when it completes.}
 \usage{
 projects.locations.models.undeploy(UndeployModelRequest, name)
 }
@@ -27,6 +27,7 @@ See \code{\link[googleAuthR]{gar_auth}} for details.
 \seealso{
 \href{https://cloud.google.com/automl}{Google Documentation}
 
-Other UndeployModelRequest functions: \code{\link{UndeployModelRequest}}
+Other UndeployModelRequest functions: 
+\code{\link{UndeployModelRequest}()}
 }
 \concept{UndeployModelRequest functions}

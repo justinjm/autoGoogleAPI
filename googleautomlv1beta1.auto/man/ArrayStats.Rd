@@ -7,7 +7,7 @@
 ArrayStats(memberStats = NULL)
 }
 \arguments{
-\item{memberStats}{Stats of all the values of all arrays, as if they were a single long}
+\item{memberStats}{Stats of all the values of all arrays, as if they were a single long series of data}
 }
 \value{
 ArrayStats object

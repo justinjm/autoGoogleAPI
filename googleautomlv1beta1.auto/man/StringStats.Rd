@@ -7,7 +7,7 @@
 StringStats(topUnigramStats = NULL)
 }
 \arguments{
-\item{topUnigramStats}{The statistics of the top 20 unigrams, ordered by}
+\item{topUnigramStats}{The statistics of the top 20 unigrams, ordered by count}
 }
 \value{
 StringStats object
