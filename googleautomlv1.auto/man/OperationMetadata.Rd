@@ -5,47 +5,47 @@
 \title{OperationMetadata Object}
 \usage{
 OperationMetadata(
+  createDatasetDetails = NULL,
+  createTime = NULL,
+  progressPercent = NULL,
+  exportModelDetails = NULL,
+  undeployModelDetails = NULL,
   partialFailures = NULL,
   updateTime = NULL,
   importDataDetails = NULL,
-  createDatasetDetails = NULL,
-  createTime = NULL,
-  undeployModelDetails = NULL,
-  progressPercent = NULL,
-  exportDataDetails = NULL,
   deleteDetails = NULL,
-  batchPredictDetails = NULL,
-  createModelDetails = NULL,
+  exportDataDetails = NULL,
   deployModelDetails = NULL,
-  exportModelDetails = NULL
+  createModelDetails = NULL,
+  batchPredictDetails = NULL
 )
 }
 \arguments{
+\item{createDatasetDetails}{Details of CreateDataset operation}
+
+\item{createTime}{Output only}
+
+\item{progressPercent}{Output only}
+
+\item{exportModelDetails}{Details of ExportModel operation}
+
+\item{undeployModelDetails}{Details of an UndeployModel operation}
+
 \item{partialFailures}{Output only}
 
 \item{updateTime}{Output only}
 
 \item{importDataDetails}{Details of ImportData operation}
 
-\item{createDatasetDetails}{Details of CreateDataset operation}
-
-\item{createTime}{Output only}
-
-\item{undeployModelDetails}{Details of an UndeployModel operation}
-
-\item{progressPercent}{Output only}
+\item{deleteDetails}{Details of a Delete operation}
 
 \item{exportDataDetails}{Details of ExportData operation}
 
-\item{deleteDetails}{Details of a Delete operation}
-
-\item{batchPredictDetails}{Details of BatchPredict operation}
+\item{deployModelDetails}{Details of a DeployModel operation}
 
 \item{createModelDetails}{Details of CreateModel operation}
 
-\item{deployModelDetails}{Details of a DeployModel operation}
-
-\item{exportModelDetails}{Details of ExportModel operation}
+\item{batchPredictDetails}{Details of BatchPredict operation}
 }
 \value{
 OperationMetadata object

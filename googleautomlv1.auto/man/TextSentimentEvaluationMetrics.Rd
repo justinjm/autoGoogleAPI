@@ -5,32 +5,32 @@
 \title{TextSentimentEvaluationMetrics Object}
 \usage{
 TextSentimentEvaluationMetrics(
-  quadraticKappa = NULL,
-  confusionMatrix = NULL,
+  precision = NULL,
   linearKappa = NULL,
-  meanSquaredError = NULL,
   meanAbsoluteError = NULL,
   f1Score = NULL,
-  precision = NULL,
-  recall = NULL
+  recall = NULL,
+  quadraticKappa = NULL,
+  confusionMatrix = NULL,
+  meanSquaredError = NULL
 )
 }
 \arguments{
-\item{quadraticKappa}{Output only}
-
-\item{confusionMatrix}{Output only}
+\item{precision}{Output only}
 
 \item{linearKappa}{Output only}
-
-\item{meanSquaredError}{Output only}
 
 \item{meanAbsoluteError}{Output only}
 
 \item{f1Score}{Output only}
 
-\item{precision}{Output only}
-
 \item{recall}{Output only}
+
+\item{quadraticKappa}{Output only}
+
+\item{confusionMatrix}{Output only}
+
+\item{meanSquaredError}{Output only}
 }
 \value{
 TextSentimentEvaluationMetrics object

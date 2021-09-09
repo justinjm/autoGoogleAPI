@@ -5,23 +5,23 @@
 \title{Document Object}
 \usage{
 Document(
+  inputConfig = NULL,
   documentText = NULL,
-  documentDimensions = NULL,
-  layout = NULL,
   pageCount = NULL,
-  inputConfig = NULL
+  layout = NULL,
+  documentDimensions = NULL
 )
 }
 \arguments{
+\item{inputConfig}{An input config specifying the content of the document}
+
 \item{documentText}{The plain text version of this document}
-
-\item{documentDimensions}{The dimensions of the page in the document}
-
-\item{layout}{Describes the layout of the document}
 
 \item{pageCount}{Number of pages in the document}
 
-\item{inputConfig}{An input config specifying the content of the document}
+\item{layout}{Describes the layout of the document}
+
+\item{documentDimensions}{The dimensions of the page in the document}
 }
 \value{
 Document object

@@ -5,27 +5,27 @@
 \title{AnnotationPayload Object}
 \usage{
 AnnotationPayload(
-  textSentiment = NULL,
-  displayName = NULL,
-  textExtraction = NULL,
   annotationSpecId = NULL,
-  imageObjectDetection = NULL,
+  textExtraction = NULL,
   classification = NULL,
+  displayName = NULL,
+  textSentiment = NULL,
+  imageObjectDetection = NULL,
   translation = NULL
 )
 }
 \arguments{
-\item{textSentiment}{Annotation details for text sentiment}
-
-\item{displayName}{Output only}
+\item{annotationSpecId}{Output only}
 
 \item{textExtraction}{Annotation details for text extraction}
 
-\item{annotationSpecId}{Output only}
+\item{classification}{Annotation details for content or image classification}
+
+\item{displayName}{Output only}
+
+\item{textSentiment}{Annotation details for text sentiment}
 
 \item{imageObjectDetection}{Annotation details for image object detection}
-
-\item{classification}{Annotation details for content or image classification}
 
 \item{translation}{Annotation details for translation}
 }

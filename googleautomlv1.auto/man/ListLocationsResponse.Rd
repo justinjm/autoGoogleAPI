@@ -4,12 +4,12 @@
 \alias{ListLocationsResponse}
 \title{ListLocationsResponse Object}
 \usage{
-ListLocationsResponse(locations = NULL, nextPageToken = NULL)
+ListLocationsResponse(nextPageToken = NULL, locations = NULL)
 }
 \arguments{
-\item{locations}{A list of locations that matches the specified filter in the request}
-
 \item{nextPageToken}{The standard List next-page token}
+
+\item{locations}{A list of locations that matches the specified filter in the request}
 }
 \value{
 ListLocationsResponse object

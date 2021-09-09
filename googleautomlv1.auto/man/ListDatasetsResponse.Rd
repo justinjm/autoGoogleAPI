@@ -4,12 +4,12 @@
 \alias{ListDatasetsResponse}
 \title{ListDatasetsResponse Object}
 \usage{
-ListDatasetsResponse(nextPageToken = NULL, datasets = NULL)
+ListDatasetsResponse(datasets = NULL, nextPageToken = NULL)
 }
 \arguments{
-\item{nextPageToken}{A token to retrieve next page of results}
-
 \item{datasets}{The datasets read}
+
+\item{nextPageToken}{A token to retrieve next page of results}
 }
 \value{
 ListDatasetsResponse object

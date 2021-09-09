@@ -6,19 +6,19 @@
 \usage{
 BatchPredictRequest(
   BatchPredictRequest.params = NULL,
+  inputConfig = NULL,
   outputConfig = NULL,
-  params = NULL,
-  inputConfig = NULL
+  params = NULL
 )
 }
 \arguments{
 \item{BatchPredictRequest.params}{The \link{BatchPredictRequest.params} object or list of objects}
 
+\item{inputConfig}{Required}
+
 \item{outputConfig}{Required}
 
 \item{params}{Additional domain-specific parameters for the predictions, any string must be up to 25000 characters long}
-
-\item{inputConfig}{Required}
 }
 \value{
 BatchPredictRequest object

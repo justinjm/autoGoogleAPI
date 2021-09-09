@@ -4,12 +4,12 @@
 \alias{Binding}
 \title{Binding Object}
 \usage{
-Binding(condition = NULL, role = NULL, members = NULL)
+Binding(role = NULL, condition = NULL, members = NULL)
 }
 \arguments{
-\item{condition}{The condition that is associated with this binding}
-
 \item{role}{Role that is assigned to `members`}
+
+\item{condition}{The condition that is associated with this binding}
 
 \item{members}{Specifies the identities requesting access for a Cloud Platform resource}
 }

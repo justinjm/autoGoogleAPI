@@ -4,14 +4,14 @@
 \alias{projects.locations.list}
 \title{Lists information about the supported locations for this service.}
 \usage{
-projects.locations.list(name, filter = NULL, pageSize = NULL, pageToken = NULL)
+projects.locations.list(name, pageSize = NULL, filter = NULL, pageToken = NULL)
 }
 \arguments{
 \item{name}{The resource that owns the locations collection, if applicable}
 
-\item{filter}{A filter to narrow down results to a preferred subset}
-
 \item{pageSize}{The maximum number of results to return}
+
+\item{filter}{A filter to narrow down results to a preferred subset}
 
 \item{pageToken}{A page token received from the `next_page_token` field in the response}
 }

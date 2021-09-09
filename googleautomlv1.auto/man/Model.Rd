@@ -6,52 +6,52 @@
 \usage{
 Model(
   Model.labels = NULL,
-  imageObjectDetectionModelMetadata = NULL,
-  deploymentState = NULL,
-  datasetId = NULL,
-  labels = NULL,
-  textSentimentModelMetadata = NULL,
-  translationModelMetadata = NULL,
-  name = NULL,
-  textClassificationModelMetadata = NULL,
-  textExtractionModelMetadata = NULL,
-  etag = NULL,
-  createTime = NULL,
   updateTime = NULL,
+  displayName = NULL,
+  imageObjectDetectionModelMetadata = NULL,
+  etag = NULL,
+  textSentimentModelMetadata = NULL,
+  createTime = NULL,
+  deploymentState = NULL,
   imageClassificationModelMetadata = NULL,
-  displayName = NULL
+  translationModelMetadata = NULL,
+  textExtractionModelMetadata = NULL,
+  name = NULL,
+  labels = NULL,
+  datasetId = NULL,
+  textClassificationModelMetadata = NULL
 )
 }
 \arguments{
 \item{Model.labels}{The \link{Model.labels} object or list of objects}
 
+\item{updateTime}{Output only}
+
+\item{displayName}{Required}
+
 \item{imageObjectDetectionModelMetadata}{Metadata for image object detection models}
-
-\item{deploymentState}{Output only}
-
-\item{datasetId}{Required}
-
-\item{labels}{Optional}
-
-\item{textSentimentModelMetadata}{Metadata for text sentiment models}
-
-\item{translationModelMetadata}{Metadata for translation models}
-
-\item{name}{Output only}
-
-\item{textClassificationModelMetadata}{Metadata for text classification models}
-
-\item{textExtractionModelMetadata}{Metadata for text extraction models}
 
 \item{etag}{Used to perform a consistent read-modify-write updates}
 
+\item{textSentimentModelMetadata}{Metadata for text sentiment models}
+
 \item{createTime}{Output only}
 
-\item{updateTime}{Output only}
+\item{deploymentState}{Output only}
 
 \item{imageClassificationModelMetadata}{Metadata for image classification models}
 
-\item{displayName}{Required}
+\item{translationModelMetadata}{Metadata for translation models}
+
+\item{textExtractionModelMetadata}{Metadata for text extraction models}
+
+\item{name}{Output only}
+
+\item{labels}{Optional}
+
+\item{datasetId}{Required}
+
+\item{textClassificationModelMetadata}{Metadata for text classification models}
 }
 \value{
 Model object

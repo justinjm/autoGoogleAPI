@@ -4,16 +4,16 @@
 \alias{Expr}
 \title{Expr Object}
 \usage{
-Expr(description = NULL, expression = NULL, location = NULL, title = NULL)
+Expr(description = NULL, expression = NULL, title = NULL, location = NULL)
 }
 \arguments{
 \item{description}{Optional}
 
 \item{expression}{Textual representation of an expression in Common Expression Language syntax}
 
-\item{location}{Optional}
-
 \item{title}{Optional}
+
+\item{location}{Optional}
 }
 \value{
 Expr object

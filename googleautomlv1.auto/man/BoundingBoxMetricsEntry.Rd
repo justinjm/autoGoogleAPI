@@ -6,16 +6,16 @@
 \usage{
 BoundingBoxMetricsEntry(
   iouThreshold = NULL,
-  meanAveragePrecision = NULL,
-  confidenceMetricsEntries = NULL
+  confidenceMetricsEntries = NULL,
+  meanAveragePrecision = NULL
 )
 }
 \arguments{
 \item{iouThreshold}{Output only}
 
-\item{meanAveragePrecision}{Output only}
-
 \item{confidenceMetricsEntries}{Output only}
+
+\item{meanAveragePrecision}{Output only}
 }
 \value{
 BoundingBoxMetricsEntry object

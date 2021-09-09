@@ -5,17 +5,17 @@
 \title{ImageObjectDetectionEvaluationMetrics Object}
 \usage{
 ImageObjectDetectionEvaluationMetrics(
+  boundingBoxMetricsEntries = NULL,
   evaluatedBoundingBoxCount = NULL,
-  boundingBoxMeanAveragePrecision = NULL,
-  boundingBoxMetricsEntries = NULL
+  boundingBoxMeanAveragePrecision = NULL
 )
 }
 \arguments{
+\item{boundingBoxMetricsEntries}{Output only}
+
 \item{evaluatedBoundingBoxCount}{Output only}
 
 \item{boundingBoxMeanAveragePrecision}{Output only}
-
-\item{boundingBoxMetricsEntries}{Output only}
 }
 \value{
 ImageObjectDetectionEvaluationMetrics object

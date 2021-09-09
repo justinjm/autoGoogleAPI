@@ -6,49 +6,49 @@
 \usage{
 Dataset(
   Dataset.labels = NULL,
-  imageObjectDetectionDatasetMetadata = NULL,
-  labels = NULL,
+  exampleCount = NULL,
   displayName = NULL,
-  textClassificationDatasetMetadata = NULL,
-  name = NULL,
   textExtractionDatasetMetadata = NULL,
   etag = NULL,
-  translationDatasetMetadata = NULL,
-  textSentimentDatasetMetadata = NULL,
-  exampleCount = NULL,
-  imageClassificationDatasetMetadata = NULL,
   description = NULL,
-  createTime = NULL
+  createTime = NULL,
+  translationDatasetMetadata = NULL,
+  name = NULL,
+  imageClassificationDatasetMetadata = NULL,
+  imageObjectDetectionDatasetMetadata = NULL,
+  textClassificationDatasetMetadata = NULL,
+  textSentimentDatasetMetadata = NULL,
+  labels = NULL
 )
 }
 \arguments{
 \item{Dataset.labels}{The \link{Dataset.labels} object or list of objects}
 
-\item{imageObjectDetectionDatasetMetadata}{Metadata for a dataset used for image object detection}
-
-\item{labels}{Optional}
+\item{exampleCount}{Output only}
 
 \item{displayName}{Required}
-
-\item{textClassificationDatasetMetadata}{Metadata for a dataset used for text classification}
-
-\item{name}{Output only}
 
 \item{textExtractionDatasetMetadata}{Metadata for a dataset used for text extraction}
 
 \item{etag}{Used to perform consistent read-modify-write updates}
 
-\item{translationDatasetMetadata}{Metadata for a dataset used for translation}
-
-\item{textSentimentDatasetMetadata}{Metadata for a dataset used for text sentiment}
-
-\item{exampleCount}{Output only}
-
-\item{imageClassificationDatasetMetadata}{Metadata for a dataset used for image classification}
-
 \item{description}{User-provided description of the dataset}
 
 \item{createTime}{Output only}
+
+\item{translationDatasetMetadata}{Metadata for a dataset used for translation}
+
+\item{name}{Output only}
+
+\item{imageClassificationDatasetMetadata}{Metadata for a dataset used for image classification}
+
+\item{imageObjectDetectionDatasetMetadata}{Metadata for a dataset used for image object detection}
+
+\item{textClassificationDatasetMetadata}{Metadata for a dataset used for text classification}
+
+\item{textSentimentDatasetMetadata}{Metadata for a dataset used for text sentiment}
+
+\item{labels}{Optional}
 }
 \value{
 Dataset object

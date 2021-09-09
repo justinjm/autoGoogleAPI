@@ -5,26 +5,26 @@
 \title{ClassificationEvaluationMetrics Object}
 \usage{
 ClassificationEvaluationMetrics(
-  auRoc = NULL,
   logLoss = NULL,
-  confusionMatrix = NULL,
-  auPrc = NULL,
+  confidenceMetricsEntry = NULL,
   annotationSpecId = NULL,
-  confidenceMetricsEntry = NULL
+  auRoc = NULL,
+  auPrc = NULL,
+  confusionMatrix = NULL
 )
 }
 \arguments{
-\item{auRoc}{Output only}
-
 \item{logLoss}{Output only}
 
-\item{confusionMatrix}{Output only}
-
-\item{auPrc}{Output only}
+\item{confidenceMetricsEntry}{Output only}
 
 \item{annotationSpecId}{Output only}
 
-\item{confidenceMetricsEntry}{Output only}
+\item{auRoc}{Output only}
+
+\item{auPrc}{Output only}
+
+\item{confusionMatrix}{Output only}
 }
 \value{
 ClassificationEvaluationMetrics object

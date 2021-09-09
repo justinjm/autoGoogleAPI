@@ -5,20 +5,20 @@
 \title{Layout Object}
 \usage{
 Layout(
-  textSegmentType = NULL,
+  boundingPoly = NULL,
   pageNumber = NULL,
   textSegment = NULL,
-  boundingPoly = NULL
+  textSegmentType = NULL
 )
 }
 \arguments{
-\item{textSegmentType}{The type of the text_segment in document}
+\item{boundingPoly}{The position of the text_segment in the page}
 
 \item{pageNumber}{Page number of the text_segment in the original document, starts from 1}
 
 \item{textSegment}{Text Segment that represents a segment in document_text}
 
-\item{boundingPoly}{The position of the text_segment in the page}
+\item{textSegmentType}{The type of the text_segment in document}
 }
 \value{
 Layout object

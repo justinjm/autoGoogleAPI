@@ -5,17 +5,17 @@
 \title{ImageClassificationModelMetadata Object}
 \usage{
 ImageClassificationModelMetadata(
-  baseModelId = NULL,
   trainBudgetMilliNodeHours = NULL,
-  modelType = NULL
+  modelType = NULL,
+  baseModelId = NULL
 )
 }
 \arguments{
-\item{baseModelId}{Optional}
-
 \item{trainBudgetMilliNodeHours}{Optional}
 
 \item{modelType}{Optional}
+
+\item{baseModelId}{Optional}
 }
 \value{
 ImageClassificationModelMetadata object

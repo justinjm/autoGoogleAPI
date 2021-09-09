@@ -5,29 +5,29 @@
 \title{Location Object}
 \usage{
 Location(
-  Location.metadata = NULL,
   Location.labels = NULL,
-  metadata = NULL,
+  Location.metadata = NULL,
+  labels = NULL,
   displayName = NULL,
-  locationId = NULL,
+  metadata = NULL,
   name = NULL,
-  labels = NULL
+  locationId = NULL
 )
 }
 \arguments{
-\item{Location.metadata}{The \link{Location.metadata} object or list of objects}
-
 \item{Location.labels}{The \link{Location.labels} object or list of objects}
 
-\item{metadata}{Service-specific metadata}
+\item{Location.metadata}{The \link{Location.metadata} object or list of objects}
+
+\item{labels}{Cross-service attributes for the location}
 
 \item{displayName}{The friendly name for this location, typically a nearby city name}
 
-\item{locationId}{The canonical id for this location}
+\item{metadata}{Service-specific metadata}
 
 \item{name}{Resource name for the location, which may vary between implementations}
 
-\item{labels}{Cross-service attributes for the location}
+\item{locationId}{The canonical id for this location}
 }
 \value{
 Location object
