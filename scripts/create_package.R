@@ -3,7 +3,7 @@
 library(here)
 library(googleAuthR)
 
-api_json_list <- gar_discovery_api("identitytoolkit","v2")
+api_json_list <- gar_discovery_api(a_url = "https://aiplatform.googleapis.com/$discovery/rest?version=v1")
 
 directory <- here()
 
